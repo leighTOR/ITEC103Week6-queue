@@ -31,31 +31,31 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
-            this.home = new System.Windows.Forms.TabPage();
+            this.tabHome = new System.Windows.Forms.TabPage();
             this.lblHeader = new MaterialSkin.Controls.MaterialLabel();
-            this.menu = new System.Windows.Forms.TabPage();
-            this.queue = new System.Windows.Forms.TabPage();
-            this.history = new System.Windows.Forms.TabPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.tabMenu = new System.Windows.Forms.TabPage();
+            this.tabQueue = new System.Windows.Forms.TabPage();
+            this.tabHistory = new System.Windows.Forms.TabPage();
+            this.imglstTabIcons = new System.Windows.Forms.ImageList(this.components);
             this.btnMenu = new MaterialSkin.Controls.MaterialButton();
             this.btnQueue = new MaterialSkin.Controls.MaterialButton();
             this.btnHistory = new MaterialSkin.Controls.MaterialButton();
             this.ptbBurgerHome = new System.Windows.Forms.PictureBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1.SuspendLayout();
-            this.home.SuspendLayout();
+            this.tabHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControl1
             // 
-            this.materialTabControl1.Controls.Add(this.home);
-            this.materialTabControl1.Controls.Add(this.menu);
-            this.materialTabControl1.Controls.Add(this.queue);
-            this.materialTabControl1.Controls.Add(this.history);
+            this.materialTabControl1.Controls.Add(this.tabHome);
+            this.materialTabControl1.Controls.Add(this.tabMenu);
+            this.materialTabControl1.Controls.Add(this.tabQueue);
+            this.materialTabControl1.Controls.Add(this.tabHistory);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialTabControl1.ImageList = this.imageList1;
+            this.materialTabControl1.ImageList = this.imglstTabIcons;
             this.materialTabControl1.Location = new System.Drawing.Point(3, 64);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Multiline = true;
@@ -64,22 +64,22 @@
             this.materialTabControl1.Size = new System.Drawing.Size(1194, 633);
             this.materialTabControl1.TabIndex = 0;
             // 
-            // home
+            // tabHome
             // 
-            this.home.BackColor = System.Drawing.Color.White;
-            this.home.Controls.Add(this.materialLabel1);
-            this.home.Controls.Add(this.ptbBurgerHome);
-            this.home.Controls.Add(this.btnHistory);
-            this.home.Controls.Add(this.btnQueue);
-            this.home.Controls.Add(this.btnMenu);
-            this.home.Controls.Add(this.lblHeader);
-            this.home.ImageKey = "home.png";
-            this.home.Location = new System.Drawing.Point(4, 39);
-            this.home.Name = "home";
-            this.home.Padding = new System.Windows.Forms.Padding(3);
-            this.home.Size = new System.Drawing.Size(1186, 590);
-            this.home.TabIndex = 0;
-            this.home.Text = "Home";
+            this.tabHome.BackColor = System.Drawing.Color.White;
+            this.tabHome.Controls.Add(this.materialLabel1);
+            this.tabHome.Controls.Add(this.ptbBurgerHome);
+            this.tabHome.Controls.Add(this.btnHistory);
+            this.tabHome.Controls.Add(this.btnQueue);
+            this.tabHome.Controls.Add(this.btnMenu);
+            this.tabHome.Controls.Add(this.lblHeader);
+            this.tabHome.ImageKey = "home.png";
+            this.tabHome.Location = new System.Drawing.Point(4, 39);
+            this.tabHome.Name = "tabHome";
+            this.tabHome.Padding = new System.Windows.Forms.Padding(3);
+            this.tabHome.Size = new System.Drawing.Size(1186, 590);
+            this.tabHome.TabIndex = 0;
+            this.tabHome.Text = "Home";
             // 
             // lblHeader
             // 
@@ -93,45 +93,45 @@
             this.lblHeader.TabIndex = 0;
             this.lblHeader.Text = "Eat Well with Leigheat Restaurant.";
             // 
-            // menu
+            // tabMenu
             // 
-            this.menu.BackColor = System.Drawing.Color.White;
-            this.menu.ImageKey = "menu.png";
-            this.menu.Location = new System.Drawing.Point(4, 39);
-            this.menu.Name = "menu";
-            this.menu.Padding = new System.Windows.Forms.Padding(3);
-            this.menu.Size = new System.Drawing.Size(1186, 590);
-            this.menu.TabIndex = 1;
-            this.menu.Text = "Menu";
+            this.tabMenu.BackColor = System.Drawing.Color.White;
+            this.tabMenu.ImageKey = "menu.png";
+            this.tabMenu.Location = new System.Drawing.Point(4, 39);
+            this.tabMenu.Name = "tabMenu";
+            this.tabMenu.Padding = new System.Windows.Forms.Padding(3);
+            this.tabMenu.Size = new System.Drawing.Size(1186, 590);
+            this.tabMenu.TabIndex = 1;
+            this.tabMenu.Text = "Menu";
             // 
-            // queue
+            // tabQueue
             // 
-            this.queue.BackColor = System.Drawing.Color.White;
-            this.queue.ImageKey = "queue.png";
-            this.queue.Location = new System.Drawing.Point(4, 39);
-            this.queue.Name = "queue";
-            this.queue.Size = new System.Drawing.Size(1186, 590);
-            this.queue.TabIndex = 2;
-            this.queue.Text = "Queue";
+            this.tabQueue.BackColor = System.Drawing.Color.White;
+            this.tabQueue.ImageKey = "queue.png";
+            this.tabQueue.Location = new System.Drawing.Point(4, 39);
+            this.tabQueue.Name = "tabQueue";
+            this.tabQueue.Size = new System.Drawing.Size(1186, 590);
+            this.tabQueue.TabIndex = 2;
+            this.tabQueue.Text = "Queue";
             // 
-            // history
+            // tabHistory
             // 
-            this.history.BackColor = System.Drawing.Color.White;
-            this.history.ImageKey = "history.png";
-            this.history.Location = new System.Drawing.Point(4, 39);
-            this.history.Name = "history";
-            this.history.Size = new System.Drawing.Size(1186, 590);
-            this.history.TabIndex = 3;
-            this.history.Text = "History";
+            this.tabHistory.BackColor = System.Drawing.Color.White;
+            this.tabHistory.ImageKey = "history.png";
+            this.tabHistory.Location = new System.Drawing.Point(4, 39);
+            this.tabHistory.Name = "tabHistory";
+            this.tabHistory.Size = new System.Drawing.Size(1186, 590);
+            this.tabHistory.TabIndex = 3;
+            this.tabHistory.Text = "History";
             // 
-            // imageList1
+            // imglstTabIcons
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "queue.png");
-            this.imageList1.Images.SetKeyName(1, "menu.png");
-            this.imageList1.Images.SetKeyName(2, "home.png");
-            this.imageList1.Images.SetKeyName(3, "history.png");
+            this.imglstTabIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglstTabIcons.ImageStream")));
+            this.imglstTabIcons.TransparentColor = System.Drawing.Color.Transparent;
+            this.imglstTabIcons.Images.SetKeyName(0, "queue.png");
+            this.imglstTabIcons.Images.SetKeyName(1, "menu.png");
+            this.imglstTabIcons.Images.SetKeyName(2, "home.png");
+            this.imglstTabIcons.Images.SetKeyName(3, "history.png");
             // 
             // btnMenu
             // 
@@ -233,8 +233,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Leigheat Restaurant";
             this.materialTabControl1.ResumeLayout(false);
-            this.home.ResumeLayout(false);
-            this.home.PerformLayout();
+            this.tabHome.ResumeLayout(false);
+            this.tabHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
             this.ResumeLayout(false);
 
@@ -243,11 +243,11 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
-        private System.Windows.Forms.TabPage home;
-        private System.Windows.Forms.TabPage menu;
-        private System.Windows.Forms.TabPage queue;
-        private System.Windows.Forms.TabPage history;
-        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.TabPage tabHome;
+        private System.Windows.Forms.TabPage tabMenu;
+        private System.Windows.Forms.TabPage tabQueue;
+        private System.Windows.Forms.TabPage tabHistory;
+        private System.Windows.Forms.ImageList imglstTabIcons;
         private MaterialSkin.Controls.MaterialLabel lblHeader;
         private MaterialSkin.Controls.MaterialButton btnMenu;
         private MaterialSkin.Controls.MaterialButton btnHistory;

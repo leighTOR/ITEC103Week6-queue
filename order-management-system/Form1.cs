@@ -25,17 +25,17 @@ namespace order_management_system
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            materialTabControl1.SelectedTab = menu;
+            materialTabControl1.SelectedTab = tabMenu;
         }
 
         private void btnQueue_Click(object sender, EventArgs e)
         {
-            materialTabControl1.SelectedTab = queue;
+            materialTabControl1.SelectedTab = tabQueue;
         }
 
         private void btnHistory_Click(object sender, EventArgs e)
         {
-            materialTabControl1.SelectedTab = history;
+            materialTabControl1.SelectedTab = tabHistory;
         }
     }
 }
