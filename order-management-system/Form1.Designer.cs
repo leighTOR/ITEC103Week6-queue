@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabcontMenu = new MaterialSkin.Controls.MaterialTabControl();
             this.tabHome = new System.Windows.Forms.TabPage();
             this.lblHeader = new MaterialSkin.Controls.MaterialLabel();
             this.tabMenu = new System.Windows.Forms.TabPage();
@@ -41,36 +41,38 @@
             this.btnQueue = new MaterialSkin.Controls.MaterialButton();
             this.btnHistory = new MaterialSkin.Controls.MaterialButton();
             this.ptbBurgerHome = new System.Windows.Forms.PictureBox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialTabControl1.SuspendLayout();
+            this.lblDeveloper = new MaterialSkin.Controls.MaterialLabel();
+            this.btnTheme = new MaterialSkin.Controls.MaterialButton();
+            this.tabcontMenu.SuspendLayout();
             this.tabHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             this.SuspendLayout();
             // 
-            // materialTabControl1
+            // tabcontMenu
             // 
-            this.materialTabControl1.Controls.Add(this.tabHome);
-            this.materialTabControl1.Controls.Add(this.tabMenu);
-            this.materialTabControl1.Controls.Add(this.tabQueue);
-            this.materialTabControl1.Controls.Add(this.tabHistory);
-            this.materialTabControl1.Depth = 0;
-            this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialTabControl1.ImageList = this.imglstTabIcons;
-            this.materialTabControl1.Location = new System.Drawing.Point(3, 64);
-            this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialTabControl1.Multiline = true;
-            this.materialTabControl1.Name = "materialTabControl1";
-            this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(1194, 633);
-            this.materialTabControl1.TabIndex = 0;
+            this.tabcontMenu.Controls.Add(this.tabHome);
+            this.tabcontMenu.Controls.Add(this.tabMenu);
+            this.tabcontMenu.Controls.Add(this.tabQueue);
+            this.tabcontMenu.Controls.Add(this.tabHistory);
+            this.tabcontMenu.Depth = 0;
+            this.tabcontMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabcontMenu.ImageList = this.imglstTabIcons;
+            this.tabcontMenu.Location = new System.Drawing.Point(3, 64);
+            this.tabcontMenu.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tabcontMenu.Multiline = true;
+            this.tabcontMenu.Name = "tabcontMenu";
+            this.tabcontMenu.SelectedIndex = 0;
+            this.tabcontMenu.Size = new System.Drawing.Size(1194, 633);
+            this.tabcontMenu.TabIndex = 0;
             // 
             // tabHome
             // 
             this.tabHome.BackColor = System.Drawing.Color.White;
-            this.tabHome.Controls.Add(this.materialLabel1);
+            this.tabHome.Controls.Add(this.lblDeveloper);
             this.tabHome.Controls.Add(this.ptbBurgerHome);
             this.tabHome.Controls.Add(this.btnHistory);
             this.tabHome.Controls.Add(this.btnQueue);
+            this.tabHome.Controls.Add(this.btnTheme);
             this.tabHome.Controls.Add(this.btnMenu);
             this.tabHome.Controls.Add(this.lblHeader);
             this.tabHome.ImageKey = "home.png";
@@ -199,40 +201,61 @@
             // ptbBurgerHome
             // 
             this.ptbBurgerHome.Image = global::order_management_system.Properties.Resources.burgerhome;
-            this.ptbBurgerHome.Location = new System.Drawing.Point(682, 0);
+            this.ptbBurgerHome.Location = new System.Drawing.Point(682, 21);
             this.ptbBurgerHome.Name = "ptbBurgerHome";
             this.ptbBurgerHome.Size = new System.Drawing.Size(555, 591);
             this.ptbBurgerHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbBurgerHome.TabIndex = 2;
             this.ptbBurgerHome.TabStop = false;
             // 
-            // materialLabel1
+            // lblDeveloper
             // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel1.Location = new System.Drawing.Point(46, 568);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(434, 19);
-            this.materialLabel1.TabIndex = 3;
-            this.materialLabel1.Text = "Developed by leighTOR. 2022. For educational purposes only.";
+            this.lblDeveloper.AutoSize = true;
+            this.lblDeveloper.Depth = 0;
+            this.lblDeveloper.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblDeveloper.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblDeveloper.Location = new System.Drawing.Point(46, 568);
+            this.lblDeveloper.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblDeveloper.Name = "lblDeveloper";
+            this.lblDeveloper.Size = new System.Drawing.Size(434, 19);
+            this.lblDeveloper.TabIndex = 3;
+            this.lblDeveloper.Text = "Developed by leighTOR. 2022. For educational purposes only.";
+            // 
+            // btnTheme
+            // 
+            this.btnTheme.AutoSize = false;
+            this.btnTheme.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnTheme.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnTheme.Depth = 0;
+            this.btnTheme.HighEmphasis = true;
+            this.btnTheme.Icon = null;
+            this.btnTheme.Location = new System.Drawing.Point(50, 9);
+            this.btnTheme.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnTheme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnTheme.Name = "btnTheme";
+            this.btnTheme.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnTheme.Size = new System.Drawing.Size(116, 36);
+            this.btnTheme.TabIndex = 1;
+            this.btnTheme.Text = "LIGHT MODE";
+            this.btnTheme.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnTheme.UseAccentColor = false;
+            this.btnTheme.UseVisualStyleBackColor = true;
+            this.btnTheme.Click += new System.EventHandler(this.btnTheme_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.materialTabControl1);
+            this.Controls.Add(this.tabcontMenu);
             this.DrawerShowIconsWhenHidden = true;
-            this.DrawerTabControl = this.materialTabControl1;
+            this.DrawerTabControl = this.tabcontMenu;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Leigheat Restaurant";
-            this.materialTabControl1.ResumeLayout(false);
+            this.tabcontMenu.ResumeLayout(false);
             this.tabHome.ResumeLayout(false);
             this.tabHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
@@ -242,7 +265,7 @@
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
+        private MaterialSkin.Controls.MaterialTabControl tabcontMenu;
         private System.Windows.Forms.TabPage tabHome;
         private System.Windows.Forms.TabPage tabMenu;
         private System.Windows.Forms.TabPage tabQueue;
@@ -253,7 +276,8 @@
         private MaterialSkin.Controls.MaterialButton btnHistory;
         private MaterialSkin.Controls.MaterialButton btnQueue;
         private System.Windows.Forms.PictureBox ptbBurgerHome;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel lblDeveloper;
+        private MaterialSkin.Controls.MaterialButton btnTheme;
     }
 }
 
