@@ -20,7 +20,22 @@ namespace order_management_system
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.DeepOrange800, Primary.DeepOrange900, Primary.DeepOrange500, Accent.DeepOrange200, TextShade.WHITE);
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedTab = menu;
+        }
+
+        private void btnQueue_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedTab = queue;
+        }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            materialTabControl1.SelectedTab = history;
         }
     }
 }
