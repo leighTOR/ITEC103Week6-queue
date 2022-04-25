@@ -88,5 +88,23 @@
   <ItemGroup>
     <None Include="Resources\burgerhome.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
