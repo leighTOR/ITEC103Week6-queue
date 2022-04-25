@@ -52,5 +52,108 @@ namespace order_management_system
                 btnTheme.Text = "LIGHT MODE";
             }        
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            if (chkbBurger.Checked)
+            {
+                lstbOrders.Items.Add("Big Burger                     P50.00");
+            }
+            if (chkbChicken.Checked)
+            {
+                lstbOrders.Items.Add("Cool Chicken                P80.00");
+            }
+            if (chkbPizza.Checked)
+            {
+                lstbOrders.Items.Add("Pretty Pizza                  P100.00");
+            }
+            if (chkbFries.Checked)
+            {
+                lstbOrders.Items.Add("Fancy Fries                   P90.00");
+            }
+            if (chkbCoffee.Checked)
+            {
+                lstbOrders.Items.Add("Calming Coffee           P60.00");
+            }
+            if (chkbCoke.Checked)
+            {
+                lstbOrders.Items.Add("Cold Coke                      P30.00");
+            }
+
+            lblCustomersName.Text = $"Customer's Name: {tbCustomersName.Text}";
+            lblTotalItem.Text = $"Total Item: {lstbOrders.Items.Count}";
+
+            //int price = 0;
+            //switch (lstbOrders.Items.ToString())
+            //{
+            //    case "Big Burger                     P50.00":
+            //        price = 50;
+            //        break;
+            //    case "Cool Chicken                P80.00":
+            //        price = 80;
+            //        break;
+            //    case "Pretty Pizza                  P100.00":
+            //        price = 100;
+            //        break;
+            //    case "Fancy Fries                   P90.00":
+            //        price = 90;
+            //        break;
+            //    case "Calming Coffee           P60.00":
+            //        price = 60;
+            //        break;
+            //    case "Cold Coke                      P30.00":
+            //        price = 30;
+            //        break;
+            //}
+
+            int price = 0;
+            if (lstbOrders.Items.ToString() == "Big Burger                     P50.00")
+            {
+                price = 50;
+            }
+            if (lstbOrders.Items.ToString() == "Cool Chicken                P80.00")
+            {
+                price = 80;
+            }
+            if (lstbOrders.Items.ToString() == "Pretty Pizza                  P100.00")
+            {
+                price = 100;
+            }
+            if (lstbOrders.Items.ToString() == "Fancy Fries                   P90.00")
+            {
+                price = 90;
+            }
+            if (lstbOrders.Items.ToString() == "Calming Coffee           P60.00")
+            {
+                price = 60;
+            }
+            if (lstbOrders.Items.ToString() == "Cold Coke                      P30.00")
+            {
+                price = 30;
+            }
+
+            int totalPrice = 0;
+            totalPrice += price;
+            lblTotalPrice.Text = $"Total Price: {totalPrice}";
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            lstbOrders.Items.Remove(lstbOrders.SelectedItem);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            tbCustomersName.ResetText();
+            lstbOrders.Items.Clear();
+            lblCustomersName.Text = "Customer's Name: ";
+            lblTotalItem.Text = "Total Item: ";
+            lblTotalPrice.Text = "Total Price: ";
+        }
+
+        private void btnSendOrder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

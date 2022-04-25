@@ -33,69 +33,69 @@
             this.tabcontMenu = new MaterialSkin.Controls.MaterialTabControl();
             this.tabHome = new System.Windows.Forms.TabPage();
             this.lblDeveloper = new MaterialSkin.Controls.MaterialLabel();
+            this.ptbBurgerHome = new System.Windows.Forms.PictureBox();
             this.btnHistory = new MaterialSkin.Controls.MaterialButton();
             this.btnQueue = new MaterialSkin.Controls.MaterialButton();
             this.btnTheme = new MaterialSkin.Controls.MaterialButton();
             this.btnMenu = new MaterialSkin.Controls.MaterialButton();
             this.lblHeader = new MaterialSkin.Controls.MaterialLabel();
             this.tabMenu = new System.Windows.Forms.TabPage();
+            this.lstbOrders = new System.Windows.Forms.ListBox();
+            this.btnClear = new MaterialSkin.Controls.MaterialButton();
+            this.btnAdd = new MaterialSkin.Controls.MaterialButton();
+            this.btnRemove = new MaterialSkin.Controls.MaterialButton();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.lblTotalPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.lblTotalItem = new MaterialSkin.Controls.MaterialLabel();
+            this.lblCustomersName = new MaterialSkin.Controls.MaterialLabel();
+            this.btnSendOrder = new MaterialSkin.Controls.MaterialButton();
+            this.tbCustomersName = new MaterialSkin.Controls.MaterialTextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblBurgerPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.chkbBurger = new MaterialSkin.Controls.MaterialCheckbox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblChickenPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.chkbChicken = new MaterialSkin.Controls.MaterialCheckbox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblPizzaPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.chkbPizza = new MaterialSkin.Controls.MaterialCheckbox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lblFriesPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.chkbFries = new MaterialSkin.Controls.MaterialCheckbox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.lblCoffee = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.chkbCoffee = new MaterialSkin.Controls.MaterialCheckbox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.lblCokePrice = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.chkbCoke = new MaterialSkin.Controls.MaterialCheckbox();
             this.tabQueue = new System.Windows.Forms.TabPage();
             this.tabHistory = new System.Windows.Forms.TabPage();
             this.imglstTabIcons = new System.Windows.Forms.ImageList(this.components);
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.chkbBurger = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.chkbChicken = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.chkbPizza = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.chkbFries = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.chkbCoffee = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
-            this.chckCoke = new MaterialSkin.Controls.MaterialCheckbox();
-            this.ptbBurgerHome = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.tbCustomersName = new MaterialSkin.Controls.MaterialTextBox();
-            this.lstbOrders = new MaterialSkin.Controls.MaterialListBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnRemove = new MaterialSkin.Controls.MaterialButton();
-            this.btnAdd = new MaterialSkin.Controls.MaterialButton();
-            this.btnSendOrder = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.tabcontMenu.SuspendLayout();
             this.tabHome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             this.tabMenu.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabcontMenu
@@ -145,6 +145,16 @@
             this.lblDeveloper.Size = new System.Drawing.Size(434, 19);
             this.lblDeveloper.TabIndex = 3;
             this.lblDeveloper.Text = "Developed by leighTOR. 2022. For educational purposes only.";
+            // 
+            // ptbBurgerHome
+            // 
+            this.ptbBurgerHome.Image = global::order_management_system.Properties.Resources.burgerhome;
+            this.ptbBurgerHome.Location = new System.Drawing.Point(682, 21);
+            this.ptbBurgerHome.Name = "ptbBurgerHome";
+            this.ptbBurgerHome.Size = new System.Drawing.Size(555, 591);
+            this.ptbBurgerHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbBurgerHome.TabIndex = 2;
+            this.ptbBurgerHome.TabStop = false;
             // 
             // btnHistory
             // 
@@ -245,11 +255,11 @@
             // tabMenu
             // 
             this.tabMenu.BackColor = System.Drawing.Color.White;
-            this.tabMenu.Controls.Add(this.materialButton1);
+            this.tabMenu.Controls.Add(this.lstbOrders);
+            this.tabMenu.Controls.Add(this.btnClear);
             this.tabMenu.Controls.Add(this.btnAdd);
             this.tabMenu.Controls.Add(this.btnRemove);
             this.tabMenu.Controls.Add(this.panel7);
-            this.tabMenu.Controls.Add(this.lstbOrders);
             this.tabMenu.Controls.Add(this.tbCustomersName);
             this.tabMenu.Controls.Add(this.flowLayoutPanel1);
             this.tabMenu.ImageKey = "menu.png";
@@ -259,6 +269,485 @@
             this.tabMenu.Size = new System.Drawing.Size(1186, 590);
             this.tabMenu.TabIndex = 1;
             this.tabMenu.Text = "Menu";
+            // 
+            // lstbOrders
+            // 
+            this.lstbOrders.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstbOrders.FormattingEnabled = true;
+            this.lstbOrders.ItemHeight = 33;
+            this.lstbOrders.Location = new System.Drawing.Point(707, 104);
+            this.lstbOrders.Name = "lstbOrders";
+            this.lstbOrders.Size = new System.Drawing.Size(394, 235);
+            this.lstbOrders.TabIndex = 5;
+            // 
+            // btnClear
+            // 
+            this.btnClear.AutoSize = false;
+            this.btnClear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnClear.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnClear.Depth = 0;
+            this.btnClear.HighEmphasis = true;
+            this.btnClear.Icon = null;
+            this.btnClear.Location = new System.Drawing.Point(983, 382);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnClear.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnClear.Name = "btnClear";
+            this.btnClear.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnClear.Size = new System.Drawing.Size(118, 36);
+            this.btnClear.TabIndex = 4;
+            this.btnClear.Text = "Clear";
+            this.btnClear.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnClear.UseAccentColor = false;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.AutoSize = false;
+            this.btnAdd.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAdd.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnAdd.Depth = 0;
+            this.btnAdd.HighEmphasis = true;
+            this.btnAdd.Icon = null;
+            this.btnAdd.Location = new System.Drawing.Point(707, 383);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnAdd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnAdd.Size = new System.Drawing.Size(130, 36);
+            this.btnAdd.TabIndex = 4;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnAdd.UseAccentColor = false;
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.AutoSize = false;
+            this.btnRemove.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnRemove.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnRemove.Depth = 0;
+            this.btnRemove.HighEmphasis = true;
+            this.btnRemove.Icon = null;
+            this.btnRemove.Location = new System.Drawing.Point(845, 382);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnRemove.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnRemove.Size = new System.Drawing.Size(130, 36);
+            this.btnRemove.TabIndex = 4;
+            this.btnRemove.Text = "Remove";
+            this.btnRemove.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnRemove.UseAccentColor = false;
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.lblTotalPrice);
+            this.panel7.Controls.Add(this.lblTotalItem);
+            this.panel7.Controls.Add(this.lblCustomersName);
+            this.panel7.Controls.Add(this.btnSendOrder);
+            this.panel7.Location = new System.Drawing.Point(707, 439);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(394, 145);
+            this.panel7.TabIndex = 3;
+            // 
+            // lblTotalPrice
+            // 
+            this.lblTotalPrice.AutoSize = true;
+            this.lblTotalPrice.Depth = 0;
+            this.lblTotalPrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblTotalPrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblTotalPrice.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lblTotalPrice.Location = new System.Drawing.Point(15, 98);
+            this.lblTotalPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblTotalPrice.Name = "lblTotalPrice";
+            this.lblTotalPrice.Size = new System.Drawing.Size(108, 24);
+            this.lblTotalPrice.TabIndex = 5;
+            this.lblTotalPrice.Text = "Total Price: ";
+            // 
+            // lblTotalItem
+            // 
+            this.lblTotalItem.AutoSize = true;
+            this.lblTotalItem.Depth = 0;
+            this.lblTotalItem.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblTotalItem.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblTotalItem.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lblTotalItem.Location = new System.Drawing.Point(15, 64);
+            this.lblTotalItem.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblTotalItem.Name = "lblTotalItem";
+            this.lblTotalItem.Size = new System.Drawing.Size(103, 24);
+            this.lblTotalItem.TabIndex = 5;
+            this.lblTotalItem.Text = "Total Item: ";
+            // 
+            // lblCustomersName
+            // 
+            this.lblCustomersName.AutoSize = true;
+            this.lblCustomersName.Depth = 0;
+            this.lblCustomersName.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblCustomersName.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.lblCustomersName.Location = new System.Drawing.Point(14, 13);
+            this.lblCustomersName.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblCustomersName.Name = "lblCustomersName";
+            this.lblCustomersName.Size = new System.Drawing.Size(200, 29);
+            this.lblCustomersName.TabIndex = 5;
+            this.lblCustomersName.Text = "Customer\'s name: ";
+            // 
+            // btnSendOrder
+            // 
+            this.btnSendOrder.AutoSize = false;
+            this.btnSendOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnSendOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnSendOrder.Depth = 0;
+            this.btnSendOrder.HighEmphasis = true;
+            this.btnSendOrder.Icon = null;
+            this.btnSendOrder.Location = new System.Drawing.Point(216, 64);
+            this.btnSendOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSendOrder.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnSendOrder.Name = "btnSendOrder";
+            this.btnSendOrder.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnSendOrder.Size = new System.Drawing.Size(161, 61);
+            this.btnSendOrder.TabIndex = 4;
+            this.btnSendOrder.Text = "Send Order";
+            this.btnSendOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnSendOrder.UseAccentColor = false;
+            this.btnSendOrder.UseVisualStyleBackColor = true;
+            this.btnSendOrder.Click += new System.EventHandler(this.btnSendOrder_Click);
+            // 
+            // tbCustomersName
+            // 
+            this.tbCustomersName.AnimateReadOnly = false;
+            this.tbCustomersName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbCustomersName.Depth = 0;
+            this.tbCustomersName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tbCustomersName.Hint = "Customer\'s name";
+            this.tbCustomersName.LeadingIcon = null;
+            this.tbCustomersName.Location = new System.Drawing.Point(707, 32);
+            this.tbCustomersName.MaxLength = 50;
+            this.tbCustomersName.MouseState = MaterialSkin.MouseState.OUT;
+            this.tbCustomersName.Multiline = false;
+            this.tbCustomersName.Name = "tbCustomersName";
+            this.tbCustomersName.Size = new System.Drawing.Size(394, 50);
+            this.tbCustomersName.TabIndex = 1;
+            this.tbCustomersName.Text = "";
+            this.tbCustomersName.TrailingIcon = null;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.panel1);
+            this.flowLayoutPanel1.Controls.Add(this.panel2);
+            this.flowLayoutPanel1.Controls.Add(this.panel3);
+            this.flowLayoutPanel1.Controls.Add(this.panel4);
+            this.flowLayoutPanel1.Controls.Add(this.panel5);
+            this.flowLayoutPanel1.Controls.Add(this.panel6);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(671, 584);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblBurgerPrice);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.chkbBurger);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(320, 201);
+            this.panel1.TabIndex = 1;
+            // 
+            // lblBurgerPrice
+            // 
+            this.lblBurgerPrice.AutoSize = true;
+            this.lblBurgerPrice.Depth = 0;
+            this.lblBurgerPrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblBurgerPrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblBurgerPrice.Location = new System.Drawing.Point(240, 162);
+            this.lblBurgerPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblBurgerPrice.Name = "lblBurgerPrice";
+            this.lblBurgerPrice.Size = new System.Drawing.Size(64, 24);
+            this.lblBurgerPrice.TabIndex = 2;
+            this.lblBurgerPrice.Text = "P50.00";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::order_management_system.Properties.Resources.burger;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // chkbBurger
+            // 
+            this.chkbBurger.AutoSize = true;
+            this.chkbBurger.Depth = 0;
+            this.chkbBurger.Location = new System.Drawing.Point(4, 159);
+            this.chkbBurger.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbBurger.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbBurger.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbBurger.Name = "chkbBurger";
+            this.chkbBurger.ReadOnly = false;
+            this.chkbBurger.Ripple = true;
+            this.chkbBurger.Size = new System.Drawing.Size(108, 37);
+            this.chkbBurger.TabIndex = 0;
+            this.chkbBurger.Text = "Big Burger";
+            this.chkbBurger.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblChickenPrice);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.chkbChicken);
+            this.panel2.Location = new System.Drawing.Point(329, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(320, 201);
+            this.panel2.TabIndex = 1;
+            // 
+            // lblChickenPrice
+            // 
+            this.lblChickenPrice.AutoSize = true;
+            this.lblChickenPrice.Depth = 0;
+            this.lblChickenPrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblChickenPrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblChickenPrice.Location = new System.Drawing.Point(241, 162);
+            this.lblChickenPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblChickenPrice.Name = "lblChickenPrice";
+            this.lblChickenPrice.Size = new System.Drawing.Size(64, 24);
+            this.lblChickenPrice.TabIndex = 2;
+            this.lblChickenPrice.Text = "P80.00";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::order_management_system.Properties.Resources.chicken;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // chkbChicken
+            // 
+            this.chkbChicken.AutoSize = true;
+            this.chkbChicken.Depth = 0;
+            this.chkbChicken.Location = new System.Drawing.Point(4, 159);
+            this.chkbChicken.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbChicken.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbChicken.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbChicken.Name = "chkbChicken";
+            this.chkbChicken.ReadOnly = false;
+            this.chkbChicken.Ripple = true;
+            this.chkbChicken.Size = new System.Drawing.Size(127, 37);
+            this.chkbChicken.TabIndex = 0;
+            this.chkbChicken.Text = "Cool Chicken";
+            this.chkbChicken.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.lblPizzaPrice);
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Controls.Add(this.chkbPizza);
+            this.panel3.Location = new System.Drawing.Point(3, 210);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(320, 201);
+            this.panel3.TabIndex = 1;
+            // 
+            // lblPizzaPrice
+            // 
+            this.lblPizzaPrice.AutoSize = true;
+            this.lblPizzaPrice.Depth = 0;
+            this.lblPizzaPrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblPizzaPrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblPizzaPrice.Location = new System.Drawing.Point(229, 162);
+            this.lblPizzaPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblPizzaPrice.Name = "lblPizzaPrice";
+            this.lblPizzaPrice.Size = new System.Drawing.Size(75, 24);
+            this.lblPizzaPrice.TabIndex = 2;
+            this.lblPizzaPrice.Text = "P100.00";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::order_management_system.Properties.Resources.pizza;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // chkbPizza
+            // 
+            this.chkbPizza.AutoSize = true;
+            this.chkbPizza.Depth = 0;
+            this.chkbPizza.Location = new System.Drawing.Point(4, 159);
+            this.chkbPizza.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbPizza.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbPizza.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbPizza.Name = "chkbPizza";
+            this.chkbPizza.ReadOnly = false;
+            this.chkbPizza.Ripple = true;
+            this.chkbPizza.Size = new System.Drawing.Size(119, 37);
+            this.chkbPizza.TabIndex = 0;
+            this.chkbPizza.Text = "Pretty Pizza";
+            this.chkbPizza.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.lblFriesPrice);
+            this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Controls.Add(this.chkbFries);
+            this.panel4.Location = new System.Drawing.Point(329, 210);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(320, 201);
+            this.panel4.TabIndex = 1;
+            // 
+            // lblFriesPrice
+            // 
+            this.lblFriesPrice.AutoSize = true;
+            this.lblFriesPrice.Depth = 0;
+            this.lblFriesPrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblFriesPrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblFriesPrice.Location = new System.Drawing.Point(241, 162);
+            this.lblFriesPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblFriesPrice.Name = "lblFriesPrice";
+            this.lblFriesPrice.Size = new System.Drawing.Size(64, 24);
+            this.lblFriesPrice.TabIndex = 2;
+            this.lblFriesPrice.Text = "P90.00";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::order_management_system.Properties.Resources.fries;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // chkbFries
+            // 
+            this.chkbFries.AutoSize = true;
+            this.chkbFries.Depth = 0;
+            this.chkbFries.Location = new System.Drawing.Point(4, 159);
+            this.chkbFries.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbFries.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbFries.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbFries.Name = "chkbFries";
+            this.chkbFries.ReadOnly = false;
+            this.chkbFries.Ripple = true;
+            this.chkbFries.Size = new System.Drawing.Size(116, 37);
+            this.chkbFries.TabIndex = 0;
+            this.chkbFries.Text = "Fancy Fries";
+            this.chkbFries.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.lblCoffee);
+            this.panel5.Controls.Add(this.pictureBox5);
+            this.panel5.Controls.Add(this.chkbCoffee);
+            this.panel5.Location = new System.Drawing.Point(3, 417);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(320, 201);
+            this.panel5.TabIndex = 1;
+            // 
+            // lblCoffee
+            // 
+            this.lblCoffee.AutoSize = true;
+            this.lblCoffee.Depth = 0;
+            this.lblCoffee.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblCoffee.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblCoffee.Location = new System.Drawing.Point(240, 162);
+            this.lblCoffee.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblCoffee.Name = "lblCoffee";
+            this.lblCoffee.Size = new System.Drawing.Size(64, 24);
+            this.lblCoffee.TabIndex = 2;
+            this.lblCoffee.Text = "P60.00";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::order_management_system.Properties.Resources.coffee;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // chkbCoffee
+            // 
+            this.chkbCoffee.AutoSize = true;
+            this.chkbCoffee.Depth = 0;
+            this.chkbCoffee.Location = new System.Drawing.Point(4, 159);
+            this.chkbCoffee.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbCoffee.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbCoffee.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbCoffee.Name = "chkbCoffee";
+            this.chkbCoffee.ReadOnly = false;
+            this.chkbCoffee.Ripple = true;
+            this.chkbCoffee.Size = new System.Drawing.Size(145, 37);
+            this.chkbCoffee.TabIndex = 0;
+            this.chkbCoffee.Text = "Calming Coffee";
+            this.chkbCoffee.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.lblCokePrice);
+            this.panel6.Controls.Add(this.pictureBox6);
+            this.panel6.Controls.Add(this.chkbCoke);
+            this.panel6.Location = new System.Drawing.Point(329, 417);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(320, 201);
+            this.panel6.TabIndex = 1;
+            // 
+            // lblCokePrice
+            // 
+            this.lblCokePrice.AutoSize = true;
+            this.lblCokePrice.Depth = 0;
+            this.lblCokePrice.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblCokePrice.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lblCokePrice.Location = new System.Drawing.Point(240, 162);
+            this.lblCokePrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblCokePrice.Name = "lblCokePrice";
+            this.lblCokePrice.Size = new System.Drawing.Size(64, 24);
+            this.lblCokePrice.TabIndex = 2;
+            this.lblCokePrice.Text = "P30.00";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::order_management_system.Properties.Resources.coke;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(320, 156);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // chkbCoke
+            // 
+            this.chkbCoke.AutoSize = true;
+            this.chkbCoke.Depth = 0;
+            this.chkbCoke.Location = new System.Drawing.Point(4, 159);
+            this.chkbCoke.Margin = new System.Windows.Forms.Padding(0);
+            this.chkbCoke.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chkbCoke.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chkbCoke.Name = "chkbCoke";
+            this.chkbCoke.ReadOnly = false;
+            this.chkbCoke.Ripple = true;
+            this.chkbCoke.Size = new System.Drawing.Size(106, 37);
+            this.chkbCoke.TabIndex = 0;
+            this.chkbCoke.Text = "Cold Coke";
+            this.chkbCoke.UseVisualStyleBackColor = true;
             // 
             // tabQueue
             // 
@@ -289,495 +778,6 @@
             this.imglstTabIcons.Images.SetKeyName(2, "home.png");
             this.imglstTabIcons.Images.SetKeyName(3, "history.png");
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Controls.Add(this.panel5);
-            this.flowLayoutPanel1.Controls.Add(this.panel6);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(671, 584);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.materialLabel1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.chkbBurger);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 201);
-            this.panel1.TabIndex = 1;
-            // 
-            // chkbBurger
-            // 
-            this.chkbBurger.AutoSize = true;
-            this.chkbBurger.Depth = 0;
-            this.chkbBurger.Location = new System.Drawing.Point(4, 159);
-            this.chkbBurger.Margin = new System.Windows.Forms.Padding(0);
-            this.chkbBurger.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chkbBurger.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chkbBurger.Name = "chkbBurger";
-            this.chkbBurger.ReadOnly = false;
-            this.chkbBurger.Ripple = true;
-            this.chkbBurger.Size = new System.Drawing.Size(108, 37);
-            this.chkbBurger.TabIndex = 0;
-            this.chkbBurger.Text = "Big Burger";
-            this.chkbBurger.UseVisualStyleBackColor = true;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel1.Location = new System.Drawing.Point(240, 162);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(64, 24);
-            this.materialLabel1.TabIndex = 2;
-            this.materialLabel1.Text = "P50.00";
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.materialLabel2);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.chkbChicken);
-            this.panel2.Location = new System.Drawing.Point(329, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(320, 201);
-            this.panel2.TabIndex = 1;
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel2.Location = new System.Drawing.Point(241, 162);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(64, 24);
-            this.materialLabel2.TabIndex = 2;
-            this.materialLabel2.Text = "P80.00";
-            // 
-            // chkbChicken
-            // 
-            this.chkbChicken.AutoSize = true;
-            this.chkbChicken.Depth = 0;
-            this.chkbChicken.Location = new System.Drawing.Point(4, 159);
-            this.chkbChicken.Margin = new System.Windows.Forms.Padding(0);
-            this.chkbChicken.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chkbChicken.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chkbChicken.Name = "chkbChicken";
-            this.chkbChicken.ReadOnly = false;
-            this.chkbChicken.Ripple = true;
-            this.chkbChicken.Size = new System.Drawing.Size(127, 37);
-            this.chkbChicken.TabIndex = 0;
-            this.chkbChicken.Text = "Cool Chicken";
-            this.chkbChicken.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.materialLabel3);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.chkbPizza);
-            this.panel3.Location = new System.Drawing.Point(3, 210);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(320, 201);
-            this.panel3.TabIndex = 1;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel3.Location = new System.Drawing.Point(229, 162);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(75, 24);
-            this.materialLabel3.TabIndex = 2;
-            this.materialLabel3.Text = "P100.00";
-            // 
-            // chkbPizza
-            // 
-            this.chkbPizza.AutoSize = true;
-            this.chkbPizza.Depth = 0;
-            this.chkbPizza.Location = new System.Drawing.Point(4, 159);
-            this.chkbPizza.Margin = new System.Windows.Forms.Padding(0);
-            this.chkbPizza.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chkbPizza.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chkbPizza.Name = "chkbPizza";
-            this.chkbPizza.ReadOnly = false;
-            this.chkbPizza.Ripple = true;
-            this.chkbPizza.Size = new System.Drawing.Size(119, 37);
-            this.chkbPizza.TabIndex = 0;
-            this.chkbPizza.Text = "Pretty Pizza";
-            this.chkbPizza.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.materialLabel4);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.chkbFries);
-            this.panel4.Location = new System.Drawing.Point(329, 210);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(320, 201);
-            this.panel4.TabIndex = 1;
-            // 
-            // materialLabel4
-            // 
-            this.materialLabel4.AutoSize = true;
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel4.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel4.Location = new System.Drawing.Point(241, 162);
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(64, 24);
-            this.materialLabel4.TabIndex = 2;
-            this.materialLabel4.Text = "P90.00";
-            // 
-            // chkbFries
-            // 
-            this.chkbFries.AutoSize = true;
-            this.chkbFries.Depth = 0;
-            this.chkbFries.Location = new System.Drawing.Point(4, 159);
-            this.chkbFries.Margin = new System.Windows.Forms.Padding(0);
-            this.chkbFries.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chkbFries.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chkbFries.Name = "chkbFries";
-            this.chkbFries.ReadOnly = false;
-            this.chkbFries.Ripple = true;
-            this.chkbFries.Size = new System.Drawing.Size(116, 37);
-            this.chkbFries.TabIndex = 0;
-            this.chkbFries.Text = "Fancy Fries";
-            this.chkbFries.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.materialLabel5);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Controls.Add(this.chkbCoffee);
-            this.panel5.Location = new System.Drawing.Point(3, 417);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(320, 201);
-            this.panel5.TabIndex = 1;
-            // 
-            // materialLabel5
-            // 
-            this.materialLabel5.AutoSize = true;
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel5.Location = new System.Drawing.Point(240, 162);
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(64, 24);
-            this.materialLabel5.TabIndex = 2;
-            this.materialLabel5.Text = "P60.00";
-            // 
-            // chkbCoffee
-            // 
-            this.chkbCoffee.AutoSize = true;
-            this.chkbCoffee.Depth = 0;
-            this.chkbCoffee.Location = new System.Drawing.Point(4, 159);
-            this.chkbCoffee.Margin = new System.Windows.Forms.Padding(0);
-            this.chkbCoffee.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chkbCoffee.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chkbCoffee.Name = "chkbCoffee";
-            this.chkbCoffee.ReadOnly = false;
-            this.chkbCoffee.Ripple = true;
-            this.chkbCoffee.Size = new System.Drawing.Size(145, 37);
-            this.chkbCoffee.TabIndex = 0;
-            this.chkbCoffee.Text = "Calming Coffee";
-            this.chkbCoffee.UseVisualStyleBackColor = true;
-            // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.materialLabel6);
-            this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Controls.Add(this.chckCoke);
-            this.panel6.Location = new System.Drawing.Point(329, 417);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(320, 201);
-            this.panel6.TabIndex = 1;
-            // 
-            // materialLabel6
-            // 
-            this.materialLabel6.AutoSize = true;
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel6.Location = new System.Drawing.Point(240, 162);
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(64, 24);
-            this.materialLabel6.TabIndex = 2;
-            this.materialLabel6.Text = "P30.00";
-            // 
-            // chckCoke
-            // 
-            this.chckCoke.AutoSize = true;
-            this.chckCoke.Depth = 0;
-            this.chckCoke.Location = new System.Drawing.Point(4, 159);
-            this.chckCoke.Margin = new System.Windows.Forms.Padding(0);
-            this.chckCoke.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chckCoke.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chckCoke.Name = "chckCoke";
-            this.chckCoke.ReadOnly = false;
-            this.chckCoke.Ripple = true;
-            this.chckCoke.Size = new System.Drawing.Size(106, 37);
-            this.chckCoke.TabIndex = 0;
-            this.chckCoke.Text = "Cold Coke";
-            this.chckCoke.UseVisualStyleBackColor = true;
-            // 
-            // ptbBurgerHome
-            // 
-            this.ptbBurgerHome.Image = global::order_management_system.Properties.Resources.burgerhome;
-            this.ptbBurgerHome.Location = new System.Drawing.Point(682, 21);
-            this.ptbBurgerHome.Name = "ptbBurgerHome";
-            this.ptbBurgerHome.Size = new System.Drawing.Size(555, 591);
-            this.ptbBurgerHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbBurgerHome.TabIndex = 2;
-            this.ptbBurgerHome.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::order_management_system.Properties.Resources.burger;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::order_management_system.Properties.Resources.chicken;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::order_management_system.Properties.Resources.pizza;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::order_management_system.Properties.Resources.fries;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::order_management_system.Properties.Resources.coffee;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::order_management_system.Properties.Resources.coke;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // tbCustomersName
-            // 
-            this.tbCustomersName.AnimateReadOnly = false;
-            this.tbCustomersName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbCustomersName.Depth = 0;
-            this.tbCustomersName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.tbCustomersName.Hint = "Customer\'s name";
-            this.tbCustomersName.LeadingIcon = null;
-            this.tbCustomersName.Location = new System.Drawing.Point(707, 32);
-            this.tbCustomersName.MaxLength = 50;
-            this.tbCustomersName.MouseState = MaterialSkin.MouseState.OUT;
-            this.tbCustomersName.Multiline = false;
-            this.tbCustomersName.Name = "tbCustomersName";
-            this.tbCustomersName.Size = new System.Drawing.Size(394, 50);
-            this.tbCustomersName.TabIndex = 1;
-            this.tbCustomersName.Text = "";
-            this.tbCustomersName.TrailingIcon = null;
-            // 
-            // lstbOrders
-            // 
-            this.lstbOrders.BackColor = System.Drawing.Color.White;
-            this.lstbOrders.BorderColor = System.Drawing.Color.LightGray;
-            this.lstbOrders.Depth = 0;
-            this.lstbOrders.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lstbOrders.Location = new System.Drawing.Point(707, 102);
-            this.lstbOrders.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lstbOrders.Name = "lstbOrders";
-            this.lstbOrders.SelectedIndex = -1;
-            this.lstbOrders.SelectedItem = null;
-            this.lstbOrders.Size = new System.Drawing.Size(394, 271);
-            this.lstbOrders.TabIndex = 2;
-            // 
-            // panel7
-            // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.materialLabel9);
-            this.panel7.Controls.Add(this.materialLabel8);
-            this.panel7.Controls.Add(this.materialLabel7);
-            this.panel7.Controls.Add(this.btnSendOrder);
-            this.panel7.Location = new System.Drawing.Point(707, 439);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(394, 145);
-            this.panel7.TabIndex = 3;
-            // 
-            // btnRemove
-            // 
-            this.btnRemove.AutoSize = false;
-            this.btnRemove.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnRemove.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnRemove.Depth = 0;
-            this.btnRemove.HighEmphasis = true;
-            this.btnRemove.Icon = null;
-            this.btnRemove.Location = new System.Drawing.Point(845, 382);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnRemove.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnRemove.Size = new System.Drawing.Size(130, 36);
-            this.btnRemove.TabIndex = 4;
-            this.btnRemove.Text = "Remove";
-            this.btnRemove.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnRemove.UseAccentColor = false;
-            this.btnRemove.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.AutoSize = false;
-            this.btnAdd.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnAdd.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnAdd.Depth = 0;
-            this.btnAdd.HighEmphasis = true;
-            this.btnAdd.Icon = null;
-            this.btnAdd.Location = new System.Drawing.Point(707, 383);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnAdd.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnAdd.Size = new System.Drawing.Size(130, 36);
-            this.btnAdd.TabIndex = 4;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnAdd.UseAccentColor = false;
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnSendOrder
-            // 
-            this.btnSendOrder.AutoSize = false;
-            this.btnSendOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnSendOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnSendOrder.Depth = 0;
-            this.btnSendOrder.HighEmphasis = true;
-            this.btnSendOrder.Icon = null;
-            this.btnSendOrder.Location = new System.Drawing.Point(216, 64);
-            this.btnSendOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnSendOrder.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnSendOrder.Name = "btnSendOrder";
-            this.btnSendOrder.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnSendOrder.Size = new System.Drawing.Size(161, 61);
-            this.btnSendOrder.TabIndex = 4;
-            this.btnSendOrder.Text = "Send Order";
-            this.btnSendOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnSendOrder.UseAccentColor = false;
-            this.btnSendOrder.UseVisualStyleBackColor = true;
-            // 
-            // materialLabel7
-            // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel7.Location = new System.Drawing.Point(14, 13);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(258, 29);
-            this.materialLabel7.TabIndex = 5;
-            this.materialLabel7.Text = "Customer\'s name: Leigh";
-            // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel8.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel8.ForeColor = System.Drawing.Color.OrangeRed;
-            this.materialLabel8.Location = new System.Drawing.Point(15, 64);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(114, 24);
-            this.materialLabel8.TabIndex = 5;
-            this.materialLabel8.Text = "Total Item: 4";
-            // 
-            // materialLabel9
-            // 
-            this.materialLabel9.AutoSize = true;
-            this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel9.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel9.ForeColor = System.Drawing.Color.OrangeRed;
-            this.materialLabel9.Location = new System.Drawing.Point(15, 98);
-            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel9.Name = "materialLabel9";
-            this.materialLabel9.Size = new System.Drawing.Size(182, 24);
-            this.materialLabel9.TabIndex = 5;
-            this.materialLabel9.Text = "Total Price: P180.00";
-            // 
-            // materialButton1
-            // 
-            this.materialButton1.AutoSize = false;
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(983, 382);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(118, 36);
-            this.materialButton1.TabIndex = 4;
-            this.materialButton1.Text = "Clear";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -794,29 +794,29 @@
             this.tabcontMenu.ResumeLayout(false);
             this.tabHome.ResumeLayout(false);
             this.tabHome.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
             this.tabMenu.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -837,40 +837,40 @@
         private MaterialSkin.Controls.MaterialLabel lblDeveloper;
         private MaterialSkin.Controls.MaterialButton btnTheme;
         private System.Windows.Forms.Panel panel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel lblBurgerPrice;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialCheckbox chkbBurger;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel lblChickenPrice;
         private MaterialSkin.Controls.MaterialCheckbox chkbChicken;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel lblPizzaPrice;
         private System.Windows.Forms.PictureBox pictureBox3;
         private MaterialSkin.Controls.MaterialCheckbox chkbPizza;
         private System.Windows.Forms.Panel panel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialLabel lblFriesPrice;
         private System.Windows.Forms.PictureBox pictureBox4;
         private MaterialSkin.Controls.MaterialCheckbox chkbFries;
         private System.Windows.Forms.Panel panel5;
-        private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private MaterialSkin.Controls.MaterialLabel lblCoffee;
         private System.Windows.Forms.PictureBox pictureBox5;
         private MaterialSkin.Controls.MaterialCheckbox chkbCoffee;
         private System.Windows.Forms.Panel panel6;
-        private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialLabel lblCokePrice;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private MaterialSkin.Controls.MaterialCheckbox chckCoke;
+        private MaterialSkin.Controls.MaterialCheckbox chkbCoke;
         private MaterialSkin.Controls.MaterialTextBox tbCustomersName;
-        private MaterialSkin.Controls.MaterialListBox lstbOrders;
         private MaterialSkin.Controls.MaterialButton btnAdd;
         private MaterialSkin.Controls.MaterialButton btnRemove;
         private System.Windows.Forms.Panel panel7;
         private MaterialSkin.Controls.MaterialButton btnSendOrder;
-        private MaterialSkin.Controls.MaterialLabel materialLabel9;
-        private MaterialSkin.Controls.MaterialLabel materialLabel8;
-        private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialLabel lblTotalPrice;
+        private MaterialSkin.Controls.MaterialLabel lblTotalItem;
+        private MaterialSkin.Controls.MaterialLabel lblCustomersName;
+        private MaterialSkin.Controls.MaterialButton btnClear;
+        private System.Windows.Forms.ListBox lstbOrders;
     }
 }
 
