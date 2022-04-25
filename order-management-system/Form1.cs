@@ -172,8 +172,8 @@ namespace order_management_system
         {
             try
             {
+                lstbHistory.Items.Add(queue.Dequeue());
                 lstbQueue.Items.RemoveAt(0);
-                queue.Dequeue();
             }
             catch
             {
@@ -207,8 +207,17 @@ namespace order_management_system
 
         private void btnClearAllOrders_Click(object sender, EventArgs e)
         {
+            foreach (var item in lstbQueue.Items)
+            {
+                lstbHistory.Items.Add(item);
+            }
             lstbQueue.Items.Clear();
             queue.Clear();
+        }
+
+        private void btnClearHistory_Click(object sender, EventArgs e)
+        {
+            lstbHistory.Items.Clear();
         }
     }
 }

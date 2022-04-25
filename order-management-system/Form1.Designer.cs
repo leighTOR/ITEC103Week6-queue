@@ -87,6 +87,8 @@
             this.btnShowFirstOrder = new MaterialSkin.Controls.MaterialButton();
             this.btnCountAllOrders = new MaterialSkin.Controls.MaterialButton();
             this.btnClearAllOrders = new MaterialSkin.Controls.MaterialButton();
+            this.lstbHistory = new System.Windows.Forms.ListBox();
+            this.btnClearHistory = new MaterialSkin.Controls.MaterialButton();
             this.tabcontMenu.SuspendLayout();
             this.tabHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
@@ -106,6 +108,7 @@
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabQueue.SuspendLayout();
+            this.tabHistory.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabcontMenu
@@ -781,6 +784,8 @@
             // tabHistory
             // 
             this.tabHistory.BackColor = System.Drawing.Color.White;
+            this.tabHistory.Controls.Add(this.btnClearHistory);
+            this.tabHistory.Controls.Add(this.lstbHistory);
             this.tabHistory.ImageKey = "history.png";
             this.tabHistory.Location = new System.Drawing.Point(4, 39);
             this.tabHistory.Name = "tabHistory";
@@ -937,6 +942,34 @@
             this.btnClearAllOrders.UseVisualStyleBackColor = true;
             this.btnClearAllOrders.Click += new System.EventHandler(this.btnClearAllOrders_Click);
             // 
+            // lstbHistory
+            // 
+            this.lstbHistory.FormattingEnabled = true;
+            this.lstbHistory.Location = new System.Drawing.Point(26, 21);
+            this.lstbHistory.Name = "lstbHistory";
+            this.lstbHistory.Size = new System.Drawing.Size(1022, 472);
+            this.lstbHistory.TabIndex = 1;
+            // 
+            // btnClearHistory
+            // 
+            this.btnClearHistory.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnClearHistory.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnClearHistory.Depth = 0;
+            this.btnClearHistory.HighEmphasis = true;
+            this.btnClearHistory.Icon = null;
+            this.btnClearHistory.Location = new System.Drawing.Point(26, 511);
+            this.btnClearHistory.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnClearHistory.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnClearHistory.Name = "btnClearHistory";
+            this.btnClearHistory.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnClearHistory.Size = new System.Drawing.Size(158, 36);
+            this.btnClearHistory.TabIndex = 2;
+            this.btnClearHistory.Text = "Clear History";
+            this.btnClearHistory.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnClearHistory.UseAccentColor = false;
+            this.btnClearHistory.UseVisualStyleBackColor = true;
+            this.btnClearHistory.Click += new System.EventHandler(this.btnClearHistory_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -978,6 +1011,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabQueue.ResumeLayout(false);
             this.tabQueue.PerformLayout();
+            this.tabHistory.ResumeLayout(false);
+            this.tabHistory.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1041,6 +1076,8 @@
         private MaterialSkin.Controls.MaterialButton btnShowFirstOrder;
         private MaterialSkin.Controls.MaterialButton btnRemoveTopOrder;
         private MaterialSkin.Controls.MaterialButton btnClearAllOrders;
+        private System.Windows.Forms.ListBox lstbHistory;
+        private MaterialSkin.Controls.MaterialButton btnClearHistory;
     }
 }
 
