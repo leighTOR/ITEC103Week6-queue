@@ -170,18 +170,39 @@ namespace order_management_system
 
         private void btnRemoveTopOrder_Click(object sender, EventArgs e)
         {
-            lstbQueue.Items.RemoveAt(0);
-            queue.Dequeue();
+            try
+            {
+                lstbQueue.Items.RemoveAt(0);
+                queue.Dequeue();
+            }
+            catch
+            {
+                MessageBox.Show("Queue empty");
+            }
         }
 
         private void btnShowFirstOrder_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"First order: {queue.Peek()}");
+            try
+            {
+                MessageBox.Show($"First order: {queue.Peek()}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnCountAllOrders_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Queue count: {queue.Count}");
+            try
+            {
+                MessageBox.Show($"Queue count: {queue.Count}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnClearAllOrders_Click(object sender, EventArgs e)
