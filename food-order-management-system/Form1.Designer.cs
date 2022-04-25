@@ -32,11 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabcontMenu = new MaterialSkin.Controls.MaterialTabControl();
             this.tabHome = new System.Windows.Forms.TabPage();
+            this.ptbThemeToggle = new System.Windows.Forms.PictureBox();
             this.lblDeveloper = new MaterialSkin.Controls.MaterialLabel();
             this.ptbBurgerHome = new System.Windows.Forms.PictureBox();
             this.btnHistory = new MaterialSkin.Controls.MaterialButton();
             this.btnQueue = new MaterialSkin.Controls.MaterialButton();
-            this.btnTheme = new MaterialSkin.Controls.MaterialButton();
             this.btnMenu = new MaterialSkin.Controls.MaterialButton();
             this.lblHeader = new MaterialSkin.Controls.MaterialLabel();
             this.tabMenu = new System.Windows.Forms.TabPage();
@@ -76,21 +76,22 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.chkbCoke = new MaterialSkin.Controls.MaterialCheckbox();
             this.tabQueue = new System.Windows.Forms.TabPage();
-            this.tabHistory = new System.Windows.Forms.TabPage();
-            this.imglstTabIcons = new System.Windows.Forms.ImageList(this.components);
-            this.lstbQueue = new System.Windows.Forms.ListBox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.btnRemoveTopOrder = new MaterialSkin.Controls.MaterialButton();
-            this.btnShowFirstOrder = new MaterialSkin.Controls.MaterialButton();
-            this.btnCountAllOrders = new MaterialSkin.Controls.MaterialButton();
             this.btnClearAllOrders = new MaterialSkin.Controls.MaterialButton();
-            this.lstbHistory = new System.Windows.Forms.ListBox();
+            this.btnCountAllOrders = new MaterialSkin.Controls.MaterialButton();
+            this.btnShowFirstOrder = new MaterialSkin.Controls.MaterialButton();
+            this.btnRemoveTopOrder = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.lstbQueue = new System.Windows.Forms.ListBox();
+            this.tabHistory = new System.Windows.Forms.TabPage();
             this.btnClearHistory = new MaterialSkin.Controls.MaterialButton();
+            this.lstbHistory = new System.Windows.Forms.ListBox();
+            this.imglstTabIcons = new System.Windows.Forms.ImageList(this.components);
             this.tabcontMenu.SuspendLayout();
             this.tabHome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbThemeToggle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             this.tabMenu.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -131,11 +132,11 @@
             // tabHome
             // 
             this.tabHome.BackColor = System.Drawing.Color.White;
+            this.tabHome.Controls.Add(this.ptbThemeToggle);
             this.tabHome.Controls.Add(this.lblDeveloper);
             this.tabHome.Controls.Add(this.ptbBurgerHome);
             this.tabHome.Controls.Add(this.btnHistory);
             this.tabHome.Controls.Add(this.btnQueue);
-            this.tabHome.Controls.Add(this.btnTheme);
             this.tabHome.Controls.Add(this.btnMenu);
             this.tabHome.Controls.Add(this.lblHeader);
             this.tabHome.ImageKey = "home.png";
@@ -145,6 +146,17 @@
             this.tabHome.Size = new System.Drawing.Size(1186, 590);
             this.tabHome.TabIndex = 0;
             this.tabHome.Text = "Home";
+            // 
+            // ptbThemeToggle
+            // 
+            this.ptbThemeToggle.Image = global::order_management_system.Properties.Resources.lighttoggle;
+            this.ptbThemeToggle.Location = new System.Drawing.Point(50, 21);
+            this.ptbThemeToggle.Name = "ptbThemeToggle";
+            this.ptbThemeToggle.Size = new System.Drawing.Size(100, 50);
+            this.ptbThemeToggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbThemeToggle.TabIndex = 4;
+            this.ptbThemeToggle.TabStop = false;
+            this.ptbThemeToggle.Click += new System.EventHandler(this.ptbThemeToggle_Click);
             // 
             // lblDeveloper
             // 
@@ -210,27 +222,6 @@
             this.btnQueue.UseAccentColor = false;
             this.btnQueue.UseVisualStyleBackColor = true;
             this.btnQueue.Click += new System.EventHandler(this.btnQueue_Click);
-            // 
-            // btnTheme
-            // 
-            this.btnTheme.AutoSize = false;
-            this.btnTheme.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnTheme.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnTheme.Depth = 0;
-            this.btnTheme.HighEmphasis = true;
-            this.btnTheme.Icon = null;
-            this.btnTheme.Location = new System.Drawing.Point(50, 9);
-            this.btnTheme.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnTheme.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnTheme.Name = "btnTheme";
-            this.btnTheme.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnTheme.Size = new System.Drawing.Size(116, 36);
-            this.btnTheme.TabIndex = 1;
-            this.btnTheme.Text = "LIGHT MODE";
-            this.btnTheme.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnTheme.UseAccentColor = false;
-            this.btnTheme.UseVisualStyleBackColor = true;
-            this.btnTheme.Click += new System.EventHandler(this.btnTheme_Click);
             // 
             // btnMenu
             // 
@@ -781,124 +772,26 @@
             this.tabQueue.TabIndex = 2;
             this.tabQueue.Text = "Queue";
             // 
-            // tabHistory
+            // btnClearAllOrders
             // 
-            this.tabHistory.BackColor = System.Drawing.Color.White;
-            this.tabHistory.Controls.Add(this.btnClearHistory);
-            this.tabHistory.Controls.Add(this.lstbHistory);
-            this.tabHistory.ImageKey = "history.png";
-            this.tabHistory.Location = new System.Drawing.Point(4, 39);
-            this.tabHistory.Name = "tabHistory";
-            this.tabHistory.Size = new System.Drawing.Size(1186, 590);
-            this.tabHistory.TabIndex = 3;
-            this.tabHistory.Text = "History";
-            // 
-            // imglstTabIcons
-            // 
-            this.imglstTabIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglstTabIcons.ImageStream")));
-            this.imglstTabIcons.TransparentColor = System.Drawing.Color.Transparent;
-            this.imglstTabIcons.Images.SetKeyName(0, "queue.png");
-            this.imglstTabIcons.Images.SetKeyName(1, "menu.png");
-            this.imglstTabIcons.Images.SetKeyName(2, "home.png");
-            this.imglstTabIcons.Images.SetKeyName(3, "history.png");
-            // 
-            // lstbQueue
-            // 
-            this.lstbQueue.FormattingEnabled = true;
-            this.lstbQueue.Location = new System.Drawing.Point(41, 59);
-            this.lstbQueue.Name = "lstbQueue";
-            this.lstbQueue.Size = new System.Drawing.Size(782, 485);
-            this.lstbQueue.TabIndex = 0;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(38, 28);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(34, 19);
-            this.materialLabel1.TabIndex = 3;
-            this.materialLabel1.Text = "Date";
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(296, 28);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(43, 19);
-            this.materialLabel2.TabIndex = 3;
-            this.materialLabel2.Text = "Name";
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(571, 28);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(73, 19);
-            this.materialLabel3.TabIndex = 3;
-            this.materialLabel3.Text = "Total Item";
-            // 
-            // materialLabel4
-            // 
-            this.materialLabel4.AutoSize = true;
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel4.Location = new System.Drawing.Point(697, 28);
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(77, 19);
-            this.materialLabel4.TabIndex = 3;
-            this.materialLabel4.Text = "Total Price";
-            // 
-            // btnRemoveTopOrder
-            // 
-            this.btnRemoveTopOrder.AutoSize = false;
-            this.btnRemoveTopOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnRemoveTopOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnRemoveTopOrder.Depth = 0;
-            this.btnRemoveTopOrder.HighEmphasis = true;
-            this.btnRemoveTopOrder.Icon = null;
-            this.btnRemoveTopOrder.Location = new System.Drawing.Point(873, 59);
-            this.btnRemoveTopOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnRemoveTopOrder.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnRemoveTopOrder.Name = "btnRemoveTopOrder";
-            this.btnRemoveTopOrder.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnRemoveTopOrder.Size = new System.Drawing.Size(222, 36);
-            this.btnRemoveTopOrder.TabIndex = 4;
-            this.btnRemoveTopOrder.Text = "Remove top order";
-            this.btnRemoveTopOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnRemoveTopOrder.UseAccentColor = false;
-            this.btnRemoveTopOrder.UseVisualStyleBackColor = true;
-            this.btnRemoveTopOrder.Click += new System.EventHandler(this.btnRemoveTopOrder_Click);
-            // 
-            // btnShowFirstOrder
-            // 
-            this.btnShowFirstOrder.AutoSize = false;
-            this.btnShowFirstOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnShowFirstOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnShowFirstOrder.Depth = 0;
-            this.btnShowFirstOrder.HighEmphasis = true;
-            this.btnShowFirstOrder.Icon = null;
-            this.btnShowFirstOrder.Location = new System.Drawing.Point(873, 107);
-            this.btnShowFirstOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnShowFirstOrder.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnShowFirstOrder.Name = "btnShowFirstOrder";
-            this.btnShowFirstOrder.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnShowFirstOrder.Size = new System.Drawing.Size(222, 36);
-            this.btnShowFirstOrder.TabIndex = 4;
-            this.btnShowFirstOrder.Text = "Show First Order";
-            this.btnShowFirstOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnShowFirstOrder.UseAccentColor = false;
-            this.btnShowFirstOrder.UseVisualStyleBackColor = true;
-            this.btnShowFirstOrder.Click += new System.EventHandler(this.btnShowFirstOrder_Click);
+            this.btnClearAllOrders.AutoSize = false;
+            this.btnClearAllOrders.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnClearAllOrders.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnClearAllOrders.Depth = 0;
+            this.btnClearAllOrders.HighEmphasis = true;
+            this.btnClearAllOrders.Icon = null;
+            this.btnClearAllOrders.Location = new System.Drawing.Point(873, 203);
+            this.btnClearAllOrders.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnClearAllOrders.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnClearAllOrders.Name = "btnClearAllOrders";
+            this.btnClearAllOrders.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnClearAllOrders.Size = new System.Drawing.Size(222, 36);
+            this.btnClearAllOrders.TabIndex = 4;
+            this.btnClearAllOrders.Text = "Clear All Orders";
+            this.btnClearAllOrders.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnClearAllOrders.UseAccentColor = false;
+            this.btnClearAllOrders.UseVisualStyleBackColor = true;
+            this.btnClearAllOrders.Click += new System.EventHandler(this.btnClearAllOrders_Click);
             // 
             // btnCountAllOrders
             // 
@@ -921,34 +814,115 @@
             this.btnCountAllOrders.UseVisualStyleBackColor = true;
             this.btnCountAllOrders.Click += new System.EventHandler(this.btnCountAllOrders_Click);
             // 
-            // btnClearAllOrders
+            // btnShowFirstOrder
             // 
-            this.btnClearAllOrders.AutoSize = false;
-            this.btnClearAllOrders.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnClearAllOrders.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnClearAllOrders.Depth = 0;
-            this.btnClearAllOrders.HighEmphasis = true;
-            this.btnClearAllOrders.Icon = null;
-            this.btnClearAllOrders.Location = new System.Drawing.Point(873, 203);
-            this.btnClearAllOrders.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btnClearAllOrders.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnClearAllOrders.Name = "btnClearAllOrders";
-            this.btnClearAllOrders.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnClearAllOrders.Size = new System.Drawing.Size(222, 36);
-            this.btnClearAllOrders.TabIndex = 4;
-            this.btnClearAllOrders.Text = "Clear All Orders";
-            this.btnClearAllOrders.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnClearAllOrders.UseAccentColor = false;
-            this.btnClearAllOrders.UseVisualStyleBackColor = true;
-            this.btnClearAllOrders.Click += new System.EventHandler(this.btnClearAllOrders_Click);
+            this.btnShowFirstOrder.AutoSize = false;
+            this.btnShowFirstOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnShowFirstOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnShowFirstOrder.Depth = 0;
+            this.btnShowFirstOrder.HighEmphasis = true;
+            this.btnShowFirstOrder.Icon = null;
+            this.btnShowFirstOrder.Location = new System.Drawing.Point(873, 107);
+            this.btnShowFirstOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnShowFirstOrder.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnShowFirstOrder.Name = "btnShowFirstOrder";
+            this.btnShowFirstOrder.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnShowFirstOrder.Size = new System.Drawing.Size(222, 36);
+            this.btnShowFirstOrder.TabIndex = 4;
+            this.btnShowFirstOrder.Text = "Show First Order";
+            this.btnShowFirstOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnShowFirstOrder.UseAccentColor = false;
+            this.btnShowFirstOrder.UseVisualStyleBackColor = true;
+            this.btnShowFirstOrder.Click += new System.EventHandler(this.btnShowFirstOrder_Click);
             // 
-            // lstbHistory
+            // btnRemoveTopOrder
             // 
-            this.lstbHistory.FormattingEnabled = true;
-            this.lstbHistory.Location = new System.Drawing.Point(26, 21);
-            this.lstbHistory.Name = "lstbHistory";
-            this.lstbHistory.Size = new System.Drawing.Size(1022, 472);
-            this.lstbHistory.TabIndex = 1;
+            this.btnRemoveTopOrder.AutoSize = false;
+            this.btnRemoveTopOrder.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnRemoveTopOrder.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnRemoveTopOrder.Depth = 0;
+            this.btnRemoveTopOrder.HighEmphasis = true;
+            this.btnRemoveTopOrder.Icon = null;
+            this.btnRemoveTopOrder.Location = new System.Drawing.Point(873, 59);
+            this.btnRemoveTopOrder.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnRemoveTopOrder.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnRemoveTopOrder.Name = "btnRemoveTopOrder";
+            this.btnRemoveTopOrder.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnRemoveTopOrder.Size = new System.Drawing.Size(222, 36);
+            this.btnRemoveTopOrder.TabIndex = 4;
+            this.btnRemoveTopOrder.Text = "Remove top order";
+            this.btnRemoveTopOrder.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnRemoveTopOrder.UseAccentColor = false;
+            this.btnRemoveTopOrder.UseVisualStyleBackColor = true;
+            this.btnRemoveTopOrder.Click += new System.EventHandler(this.btnRemoveTopOrder_Click);
+            // 
+            // materialLabel4
+            // 
+            this.materialLabel4.AutoSize = true;
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel4.Location = new System.Drawing.Point(697, 28);
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            this.materialLabel4.Size = new System.Drawing.Size(77, 19);
+            this.materialLabel4.TabIndex = 3;
+            this.materialLabel4.Text = "Total Price";
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.Location = new System.Drawing.Point(571, 28);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(73, 19);
+            this.materialLabel3.TabIndex = 3;
+            this.materialLabel3.Text = "Total Item";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Location = new System.Drawing.Point(296, 28);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(43, 19);
+            this.materialLabel2.TabIndex = 3;
+            this.materialLabel2.Text = "Name";
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(38, 28);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(34, 19);
+            this.materialLabel1.TabIndex = 3;
+            this.materialLabel1.Text = "Date";
+            // 
+            // lstbQueue
+            // 
+            this.lstbQueue.FormattingEnabled = true;
+            this.lstbQueue.Location = new System.Drawing.Point(41, 59);
+            this.lstbQueue.Name = "lstbQueue";
+            this.lstbQueue.Size = new System.Drawing.Size(782, 485);
+            this.lstbQueue.TabIndex = 0;
+            // 
+            // tabHistory
+            // 
+            this.tabHistory.BackColor = System.Drawing.Color.White;
+            this.tabHistory.Controls.Add(this.btnClearHistory);
+            this.tabHistory.Controls.Add(this.lstbHistory);
+            this.tabHistory.ImageKey = "history.png";
+            this.tabHistory.Location = new System.Drawing.Point(4, 39);
+            this.tabHistory.Name = "tabHistory";
+            this.tabHistory.Size = new System.Drawing.Size(1186, 590);
+            this.tabHistory.TabIndex = 3;
+            this.tabHistory.Text = "History";
             // 
             // btnClearHistory
             // 
@@ -962,13 +936,30 @@
             this.btnClearHistory.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnClearHistory.Name = "btnClearHistory";
             this.btnClearHistory.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnClearHistory.Size = new System.Drawing.Size(158, 36);
+            this.btnClearHistory.Size = new System.Drawing.Size(131, 36);
             this.btnClearHistory.TabIndex = 2;
             this.btnClearHistory.Text = "Clear History";
             this.btnClearHistory.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnClearHistory.UseAccentColor = false;
             this.btnClearHistory.UseVisualStyleBackColor = true;
             this.btnClearHistory.Click += new System.EventHandler(this.btnClearHistory_Click);
+            // 
+            // lstbHistory
+            // 
+            this.lstbHistory.FormattingEnabled = true;
+            this.lstbHistory.Location = new System.Drawing.Point(26, 21);
+            this.lstbHistory.Name = "lstbHistory";
+            this.lstbHistory.Size = new System.Drawing.Size(1022, 472);
+            this.lstbHistory.TabIndex = 1;
+            // 
+            // imglstTabIcons
+            // 
+            this.imglstTabIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imglstTabIcons.ImageStream")));
+            this.imglstTabIcons.TransparentColor = System.Drawing.Color.Transparent;
+            this.imglstTabIcons.Images.SetKeyName(0, "queue.png");
+            this.imglstTabIcons.Images.SetKeyName(1, "menu.png");
+            this.imglstTabIcons.Images.SetKeyName(2, "home.png");
+            this.imglstTabIcons.Images.SetKeyName(3, "history.png");
             // 
             // Form1
             // 
@@ -986,6 +977,7 @@
             this.tabcontMenu.ResumeLayout(false);
             this.tabHome.ResumeLayout(false);
             this.tabHome.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbThemeToggle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
             this.tabMenu.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -1031,7 +1023,6 @@
         private MaterialSkin.Controls.MaterialButton btnQueue;
         private System.Windows.Forms.PictureBox ptbBurgerHome;
         private MaterialSkin.Controls.MaterialLabel lblDeveloper;
-        private MaterialSkin.Controls.MaterialButton btnTheme;
         private System.Windows.Forms.Panel panel1;
         private MaterialSkin.Controls.MaterialLabel lblBurgerPrice;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -1078,6 +1069,7 @@
         private MaterialSkin.Controls.MaterialButton btnClearAllOrders;
         private System.Windows.Forms.ListBox lstbHistory;
         private MaterialSkin.Controls.MaterialButton btnClearHistory;
+        private System.Windows.Forms.PictureBox ptbThemeToggle;
     }
 }
 

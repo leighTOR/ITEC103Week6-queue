@@ -106,5 +106,11 @@
   <ItemGroup>
     <None Include="Resources\pizza.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darktoggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lighttoggle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

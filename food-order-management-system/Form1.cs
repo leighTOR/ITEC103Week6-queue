@@ -41,20 +41,21 @@ namespace order_management_system
             tabcontMenu.SelectedTab = tabHistory;
         }
 
-        private void btnTheme_Click(object sender, EventArgs e)
-        {
-            var materialSkinManager = MaterialSkinManager.Instance;
-            if (btnTheme.Text == "LIGHT MODE")
-            {
-                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-                btnTheme.Text = "DARK MODE";
-            }
-            else
-            {
-                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
-                btnTheme.Text = "LIGHT MODE";
-            }        
-        }
+        //private void btnThemeToggle_Click(object sender, EventArgs e)
+        //{
+        //    var materialSkinManager = MaterialSkinManager.Instance;
+        //    if (btnThemeToggle.Text == "LIGHT MODE")
+        //    {
+        //        materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+        //        btnThemeToggle.BackColor = Color.OrangeRed;
+        //        btnThemeToggle.Text = "DARK MODE";
+        //    }
+        //    else
+        //    {
+        //        materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+        //        btnThemeToggle.Text = "LIGHT MODE";
+        //    }
+        //}
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -218,6 +219,21 @@ namespace order_management_system
         private void btnClearHistory_Click(object sender, EventArgs e)
         {
             lstbHistory.Items.Clear();
+        }
+
+        private void ptbThemeToggle_Click(object sender, EventArgs e)
+        {
+            var materialSkinManager = MaterialSkinManager.Instance;
+            if (ptbThemeToggle.Image == Properties.Resources.darktoggle)
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                ptbThemeToggle.Image = Properties.Resources.lighttoggle;
+            }
+            else
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                ptbThemeToggle.Image = Properties.Resources.darktoggle;
+            }
         }
     }
 }

@@ -113,9 +113,29 @@ namespace order_management_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap darktoggle {
+            get {
+                object obj = ResourceManager.GetObject("darktoggle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fries {
             get {
                 object obj = ResourceManager.GetObject("fries", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lighttoggle {
+            get {
+                object obj = ResourceManager.GetObject("lighttoggle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
