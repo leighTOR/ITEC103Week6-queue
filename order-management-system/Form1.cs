@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
@@ -14,6 +15,8 @@ namespace order_management_system
 {
     public partial class Form1 : MaterialForm
     {
+        Queue queue = new Queue();
+
         public Form1()
         {
             InitializeComponent();
@@ -135,6 +138,7 @@ namespace order_management_system
             int totalPrice = 0;
             totalPrice += price;
             lblTotalPrice.Text = $"Total Price: {totalPrice}";
+            
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
@@ -149,11 +153,41 @@ namespace order_management_system
             lblCustomersName.Text = "Customer's Name: ";
             lblTotalItem.Text = "Total Item: ";
             lblTotalPrice.Text = "Total Price: ";
+            chkbBurger.Checked = false;
+            chkbChicken.Checked = false;
+            chkbPizza.Checked = false;
+            chkbFries.Checked = false;
+            chkbCoffee.Checked = false;
+            chkbCoke.Checked = false;
         }
 
         private void btnSendOrder_Click(object sender, EventArgs e)
         {
+            var order = DateTime.Now + "\t\t" + tbCustomersName.Text + "\t\t\t\t\t" + lstbOrders.Items.Count + "\t\t";
+            lstbQueue.Items.Add(order);
+            queue.Enqueue(order);
+        }
 
+        private void btnRemoveTopOrder_Click(object sender, EventArgs e)
+        {
+            lstbQueue.Items.RemoveAt(0);
+            queue.Dequeue();
+        }
+
+        private void btnShowFirstOrder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"First order: {queue.Peek()}");
+        }
+
+        private void btnCountAllOrders_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Queue count: {queue.Count}");
+        }
+
+        private void btnClearAllOrders_Click(object sender, EventArgs e)
+        {
+            lstbQueue.Items.Clear();
+            queue.Clear();
         }
     }
 }
