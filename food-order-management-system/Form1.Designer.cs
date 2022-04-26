@@ -44,46 +44,46 @@
             this.btnClear = new MaterialSkin.Controls.MaterialButton();
             this.btnAdd = new MaterialSkin.Controls.MaterialButton();
             this.btnRemove = new MaterialSkin.Controls.MaterialButton();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.pnlOrderInfo = new System.Windows.Forms.Panel();
             this.lblTotalPrice = new MaterialSkin.Controls.MaterialLabel();
             this.lblTotalItem = new MaterialSkin.Controls.MaterialLabel();
             this.lblCustomersName = new MaterialSkin.Controls.MaterialLabel();
             this.btnSendOrder = new MaterialSkin.Controls.MaterialButton();
             this.tbCustomersName = new MaterialSkin.Controls.MaterialTextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.flpnlMenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlBurger = new System.Windows.Forms.Panel();
             this.lblBurgerPrice = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ptbBurger = new System.Windows.Forms.PictureBox();
             this.chkbBurger = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlChicken = new System.Windows.Forms.Panel();
             this.lblChickenPrice = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ptbChicken = new System.Windows.Forms.PictureBox();
             this.chkbChicken = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlPizza = new System.Windows.Forms.Panel();
             this.lblPizzaPrice = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.ptbPizza = new System.Windows.Forms.PictureBox();
             this.chkbPizza = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.pnlFries = new System.Windows.Forms.Panel();
             this.lblFriesPrice = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.ptbFries = new System.Windows.Forms.PictureBox();
             this.chkbFries = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.pnlCoffee = new System.Windows.Forms.Panel();
             this.lblCoffee = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.ptbCoffee = new System.Windows.Forms.PictureBox();
             this.chkbCoffee = new MaterialSkin.Controls.MaterialCheckbox();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.pnlCoke = new System.Windows.Forms.Panel();
             this.lblCokePrice = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.ptbCoke = new System.Windows.Forms.PictureBox();
             this.chkbCoke = new MaterialSkin.Controls.MaterialCheckbox();
             this.tabQueue = new System.Windows.Forms.TabPage();
             this.btnClearAllOrders = new MaterialSkin.Controls.MaterialButton();
             this.btnCountAllOrders = new MaterialSkin.Controls.MaterialButton();
             this.btnShowFirstOrder = new MaterialSkin.Controls.MaterialButton();
             this.btnRemoveTopOrder = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.lblQueueTotalPrice = new MaterialSkin.Controls.MaterialLabel();
+            this.lblQueueTotalItem = new MaterialSkin.Controls.MaterialLabel();
+            this.lblQueueName = new MaterialSkin.Controls.MaterialLabel();
+            this.lblQueueDate = new MaterialSkin.Controls.MaterialLabel();
             this.lstbQueue = new System.Windows.Forms.ListBox();
             this.tabHistory = new System.Windows.Forms.TabPage();
             this.btnClearHistory = new MaterialSkin.Controls.MaterialButton();
@@ -94,20 +94,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbThemeToggle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).BeginInit();
             this.tabMenu.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.pnlOrderInfo.SuspendLayout();
+            this.flpnlMenu.SuspendLayout();
+            this.pnlBurger.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbBurger)).BeginInit();
+            this.pnlChicken.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbChicken)).BeginInit();
+            this.pnlPizza.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPizza)).BeginInit();
+            this.pnlFries.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbFries)).BeginInit();
+            this.pnlCoffee.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbCoffee)).BeginInit();
+            this.pnlCoke.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbCoke)).BeginInit();
             this.tabQueue.SuspendLayout();
             this.tabHistory.SuspendLayout();
             this.SuspendLayout();
@@ -263,9 +263,9 @@
             this.tabMenu.Controls.Add(this.btnClear);
             this.tabMenu.Controls.Add(this.btnAdd);
             this.tabMenu.Controls.Add(this.btnRemove);
-            this.tabMenu.Controls.Add(this.panel7);
+            this.tabMenu.Controls.Add(this.pnlOrderInfo);
             this.tabMenu.Controls.Add(this.tbCustomersName);
-            this.tabMenu.Controls.Add(this.flowLayoutPanel1);
+            this.tabMenu.Controls.Add(this.flpnlMenu);
             this.tabMenu.ImageKey = "menu.png";
             this.tabMenu.Location = new System.Drawing.Point(4, 39);
             this.tabMenu.Name = "tabMenu";
@@ -347,17 +347,17 @@
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
-            // panel7
+            // pnlOrderInfo
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.lblTotalPrice);
-            this.panel7.Controls.Add(this.lblTotalItem);
-            this.panel7.Controls.Add(this.lblCustomersName);
-            this.panel7.Controls.Add(this.btnSendOrder);
-            this.panel7.Location = new System.Drawing.Point(707, 439);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(394, 145);
-            this.panel7.TabIndex = 3;
+            this.pnlOrderInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlOrderInfo.Controls.Add(this.lblTotalPrice);
+            this.pnlOrderInfo.Controls.Add(this.lblTotalItem);
+            this.pnlOrderInfo.Controls.Add(this.lblCustomersName);
+            this.pnlOrderInfo.Controls.Add(this.btnSendOrder);
+            this.pnlOrderInfo.Location = new System.Drawing.Point(707, 439);
+            this.pnlOrderInfo.Name = "pnlOrderInfo";
+            this.pnlOrderInfo.Size = new System.Drawing.Size(394, 145);
+            this.pnlOrderInfo.TabIndex = 3;
             // 
             // lblTotalPrice
             // 
@@ -439,30 +439,30 @@
             this.tbCustomersName.Text = "";
             this.tbCustomersName.TrailingIcon = null;
             // 
-            // flowLayoutPanel1
+            // flpnlMenu
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Controls.Add(this.panel5);
-            this.flowLayoutPanel1.Controls.Add(this.panel6);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(671, 584);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.flpnlMenu.AutoScroll = true;
+            this.flpnlMenu.Controls.Add(this.pnlBurger);
+            this.flpnlMenu.Controls.Add(this.pnlChicken);
+            this.flpnlMenu.Controls.Add(this.pnlPizza);
+            this.flpnlMenu.Controls.Add(this.pnlFries);
+            this.flpnlMenu.Controls.Add(this.pnlCoffee);
+            this.flpnlMenu.Controls.Add(this.pnlCoke);
+            this.flpnlMenu.Location = new System.Drawing.Point(3, 3);
+            this.flpnlMenu.Name = "flpnlMenu";
+            this.flpnlMenu.Size = new System.Drawing.Size(671, 584);
+            this.flpnlMenu.TabIndex = 0;
             // 
-            // panel1
+            // pnlBurger
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.lblBurgerPrice);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.chkbBurger);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 201);
-            this.panel1.TabIndex = 1;
+            this.pnlBurger.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlBurger.Controls.Add(this.lblBurgerPrice);
+            this.pnlBurger.Controls.Add(this.ptbBurger);
+            this.pnlBurger.Controls.Add(this.chkbBurger);
+            this.pnlBurger.Location = new System.Drawing.Point(3, 3);
+            this.pnlBurger.Name = "pnlBurger";
+            this.pnlBurger.Size = new System.Drawing.Size(320, 201);
+            this.pnlBurger.TabIndex = 1;
             // 
             // lblBurgerPrice
             // 
@@ -477,15 +477,15 @@
             this.lblBurgerPrice.TabIndex = 2;
             this.lblBurgerPrice.Text = "P50.00";
             // 
-            // pictureBox1
+            // ptbBurger
             // 
-            this.pictureBox1.Image = global::order_management_system.Properties.Resources.burger;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.ptbBurger.Image = global::order_management_system.Properties.Resources.burger;
+            this.ptbBurger.Location = new System.Drawing.Point(0, 0);
+            this.ptbBurger.Name = "ptbBurger";
+            this.ptbBurger.Size = new System.Drawing.Size(320, 156);
+            this.ptbBurger.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbBurger.TabIndex = 1;
+            this.ptbBurger.TabStop = false;
             // 
             // chkbBurger
             // 
@@ -503,16 +503,16 @@
             this.chkbBurger.Text = "Big Burger";
             this.chkbBurger.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // pnlChicken
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.lblChickenPrice);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.chkbChicken);
-            this.panel2.Location = new System.Drawing.Point(329, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(320, 201);
-            this.panel2.TabIndex = 1;
+            this.pnlChicken.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlChicken.Controls.Add(this.lblChickenPrice);
+            this.pnlChicken.Controls.Add(this.ptbChicken);
+            this.pnlChicken.Controls.Add(this.chkbChicken);
+            this.pnlChicken.Location = new System.Drawing.Point(329, 3);
+            this.pnlChicken.Name = "pnlChicken";
+            this.pnlChicken.Size = new System.Drawing.Size(320, 201);
+            this.pnlChicken.TabIndex = 1;
             // 
             // lblChickenPrice
             // 
@@ -527,15 +527,15 @@
             this.lblChickenPrice.TabIndex = 2;
             this.lblChickenPrice.Text = "P80.00";
             // 
-            // pictureBox2
+            // ptbChicken
             // 
-            this.pictureBox2.Image = global::order_management_system.Properties.Resources.chicken;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.ptbChicken.Image = global::order_management_system.Properties.Resources.chicken;
+            this.ptbChicken.Location = new System.Drawing.Point(0, 0);
+            this.ptbChicken.Name = "ptbChicken";
+            this.ptbChicken.Size = new System.Drawing.Size(320, 156);
+            this.ptbChicken.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbChicken.TabIndex = 1;
+            this.ptbChicken.TabStop = false;
             // 
             // chkbChicken
             // 
@@ -553,16 +553,16 @@
             this.chkbChicken.Text = "Cool Chicken";
             this.chkbChicken.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // pnlPizza
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.lblPizzaPrice);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.chkbPizza);
-            this.panel3.Location = new System.Drawing.Point(3, 210);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(320, 201);
-            this.panel3.TabIndex = 1;
+            this.pnlPizza.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlPizza.Controls.Add(this.lblPizzaPrice);
+            this.pnlPizza.Controls.Add(this.ptbPizza);
+            this.pnlPizza.Controls.Add(this.chkbPizza);
+            this.pnlPizza.Location = new System.Drawing.Point(3, 210);
+            this.pnlPizza.Name = "pnlPizza";
+            this.pnlPizza.Size = new System.Drawing.Size(320, 201);
+            this.pnlPizza.TabIndex = 1;
             // 
             // lblPizzaPrice
             // 
@@ -577,15 +577,15 @@
             this.lblPizzaPrice.TabIndex = 2;
             this.lblPizzaPrice.Text = "P100.00";
             // 
-            // pictureBox3
+            // ptbPizza
             // 
-            this.pictureBox3.Image = global::order_management_system.Properties.Resources.pizza;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.ptbPizza.Image = global::order_management_system.Properties.Resources.pizza;
+            this.ptbPizza.Location = new System.Drawing.Point(0, 0);
+            this.ptbPizza.Name = "ptbPizza";
+            this.ptbPizza.Size = new System.Drawing.Size(320, 156);
+            this.ptbPizza.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbPizza.TabIndex = 1;
+            this.ptbPizza.TabStop = false;
             // 
             // chkbPizza
             // 
@@ -603,16 +603,16 @@
             this.chkbPizza.Text = "Pretty Pizza";
             this.chkbPizza.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // pnlFries
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.lblFriesPrice);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.chkbFries);
-            this.panel4.Location = new System.Drawing.Point(329, 210);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(320, 201);
-            this.panel4.TabIndex = 1;
+            this.pnlFries.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlFries.Controls.Add(this.lblFriesPrice);
+            this.pnlFries.Controls.Add(this.ptbFries);
+            this.pnlFries.Controls.Add(this.chkbFries);
+            this.pnlFries.Location = new System.Drawing.Point(329, 210);
+            this.pnlFries.Name = "pnlFries";
+            this.pnlFries.Size = new System.Drawing.Size(320, 201);
+            this.pnlFries.TabIndex = 1;
             // 
             // lblFriesPrice
             // 
@@ -627,15 +627,15 @@
             this.lblFriesPrice.TabIndex = 2;
             this.lblFriesPrice.Text = "P90.00";
             // 
-            // pictureBox4
+            // ptbFries
             // 
-            this.pictureBox4.Image = global::order_management_system.Properties.Resources.fries;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
+            this.ptbFries.Image = global::order_management_system.Properties.Resources.fries;
+            this.ptbFries.Location = new System.Drawing.Point(0, 0);
+            this.ptbFries.Name = "ptbFries";
+            this.ptbFries.Size = new System.Drawing.Size(320, 156);
+            this.ptbFries.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbFries.TabIndex = 1;
+            this.ptbFries.TabStop = false;
             // 
             // chkbFries
             // 
@@ -653,16 +653,16 @@
             this.chkbFries.Text = "Fancy Fries";
             this.chkbFries.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // pnlCoffee
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.lblCoffee);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Controls.Add(this.chkbCoffee);
-            this.panel5.Location = new System.Drawing.Point(3, 417);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(320, 201);
-            this.panel5.TabIndex = 1;
+            this.pnlCoffee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlCoffee.Controls.Add(this.lblCoffee);
+            this.pnlCoffee.Controls.Add(this.ptbCoffee);
+            this.pnlCoffee.Controls.Add(this.chkbCoffee);
+            this.pnlCoffee.Location = new System.Drawing.Point(3, 417);
+            this.pnlCoffee.Name = "pnlCoffee";
+            this.pnlCoffee.Size = new System.Drawing.Size(320, 201);
+            this.pnlCoffee.TabIndex = 1;
             // 
             // lblCoffee
             // 
@@ -677,15 +677,15 @@
             this.lblCoffee.TabIndex = 2;
             this.lblCoffee.Text = "P60.00";
             // 
-            // pictureBox5
+            // ptbCoffee
             // 
-            this.pictureBox5.Image = global::order_management_system.Properties.Resources.coffee;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.ptbCoffee.Image = global::order_management_system.Properties.Resources.coffee;
+            this.ptbCoffee.Location = new System.Drawing.Point(0, 0);
+            this.ptbCoffee.Name = "ptbCoffee";
+            this.ptbCoffee.Size = new System.Drawing.Size(320, 156);
+            this.ptbCoffee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbCoffee.TabIndex = 1;
+            this.ptbCoffee.TabStop = false;
             // 
             // chkbCoffee
             // 
@@ -703,16 +703,16 @@
             this.chkbCoffee.Text = "Calming Coffee";
             this.chkbCoffee.UseVisualStyleBackColor = true;
             // 
-            // panel6
+            // pnlCoke
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.lblCokePrice);
-            this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Controls.Add(this.chkbCoke);
-            this.panel6.Location = new System.Drawing.Point(329, 417);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(320, 201);
-            this.panel6.TabIndex = 1;
+            this.pnlCoke.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlCoke.Controls.Add(this.lblCokePrice);
+            this.pnlCoke.Controls.Add(this.ptbCoke);
+            this.pnlCoke.Controls.Add(this.chkbCoke);
+            this.pnlCoke.Location = new System.Drawing.Point(329, 417);
+            this.pnlCoke.Name = "pnlCoke";
+            this.pnlCoke.Size = new System.Drawing.Size(320, 201);
+            this.pnlCoke.TabIndex = 1;
             // 
             // lblCokePrice
             // 
@@ -727,15 +727,15 @@
             this.lblCokePrice.TabIndex = 2;
             this.lblCokePrice.Text = "P30.00";
             // 
-            // pictureBox6
+            // ptbCoke
             // 
-            this.pictureBox6.Image = global::order_management_system.Properties.Resources.coke;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(320, 156);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
+            this.ptbCoke.Image = global::order_management_system.Properties.Resources.coke;
+            this.ptbCoke.Location = new System.Drawing.Point(0, 0);
+            this.ptbCoke.Name = "ptbCoke";
+            this.ptbCoke.Size = new System.Drawing.Size(320, 156);
+            this.ptbCoke.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbCoke.TabIndex = 1;
+            this.ptbCoke.TabStop = false;
             // 
             // chkbCoke
             // 
@@ -760,10 +760,10 @@
             this.tabQueue.Controls.Add(this.btnCountAllOrders);
             this.tabQueue.Controls.Add(this.btnShowFirstOrder);
             this.tabQueue.Controls.Add(this.btnRemoveTopOrder);
-            this.tabQueue.Controls.Add(this.materialLabel4);
-            this.tabQueue.Controls.Add(this.materialLabel3);
-            this.tabQueue.Controls.Add(this.materialLabel2);
-            this.tabQueue.Controls.Add(this.materialLabel1);
+            this.tabQueue.Controls.Add(this.lblQueueTotalPrice);
+            this.tabQueue.Controls.Add(this.lblQueueTotalItem);
+            this.tabQueue.Controls.Add(this.lblQueueName);
+            this.tabQueue.Controls.Add(this.lblQueueDate);
             this.tabQueue.Controls.Add(this.lstbQueue);
             this.tabQueue.ImageKey = "queue.png";
             this.tabQueue.Location = new System.Drawing.Point(4, 39);
@@ -856,53 +856,53 @@
             this.btnRemoveTopOrder.UseVisualStyleBackColor = true;
             this.btnRemoveTopOrder.Click += new System.EventHandler(this.btnRemoveTopOrder_Click);
             // 
-            // materialLabel4
+            // lblQueueTotalPrice
             // 
-            this.materialLabel4.AutoSize = true;
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel4.Location = new System.Drawing.Point(697, 28);
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(77, 19);
-            this.materialLabel4.TabIndex = 3;
-            this.materialLabel4.Text = "Total Price";
+            this.lblQueueTotalPrice.AutoSize = true;
+            this.lblQueueTotalPrice.Depth = 0;
+            this.lblQueueTotalPrice.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblQueueTotalPrice.Location = new System.Drawing.Point(697, 28);
+            this.lblQueueTotalPrice.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblQueueTotalPrice.Name = "lblQueueTotalPrice";
+            this.lblQueueTotalPrice.Size = new System.Drawing.Size(77, 19);
+            this.lblQueueTotalPrice.TabIndex = 3;
+            this.lblQueueTotalPrice.Text = "Total Price";
             // 
-            // materialLabel3
+            // lblQueueTotalItem
             // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(571, 28);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(73, 19);
-            this.materialLabel3.TabIndex = 3;
-            this.materialLabel3.Text = "Total Item";
+            this.lblQueueTotalItem.AutoSize = true;
+            this.lblQueueTotalItem.Depth = 0;
+            this.lblQueueTotalItem.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblQueueTotalItem.Location = new System.Drawing.Point(571, 28);
+            this.lblQueueTotalItem.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblQueueTotalItem.Name = "lblQueueTotalItem";
+            this.lblQueueTotalItem.Size = new System.Drawing.Size(73, 19);
+            this.lblQueueTotalItem.TabIndex = 3;
+            this.lblQueueTotalItem.Text = "Total Item";
             // 
-            // materialLabel2
+            // lblQueueName
             // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(296, 28);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(43, 19);
-            this.materialLabel2.TabIndex = 3;
-            this.materialLabel2.Text = "Name";
+            this.lblQueueName.AutoSize = true;
+            this.lblQueueName.Depth = 0;
+            this.lblQueueName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblQueueName.Location = new System.Drawing.Point(296, 28);
+            this.lblQueueName.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblQueueName.Name = "lblQueueName";
+            this.lblQueueName.Size = new System.Drawing.Size(43, 19);
+            this.lblQueueName.TabIndex = 3;
+            this.lblQueueName.Text = "Name";
             // 
-            // materialLabel1
+            // lblQueueDate
             // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(38, 28);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(34, 19);
-            this.materialLabel1.TabIndex = 3;
-            this.materialLabel1.Text = "Date";
+            this.lblQueueDate.AutoSize = true;
+            this.lblQueueDate.Depth = 0;
+            this.lblQueueDate.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblQueueDate.Location = new System.Drawing.Point(38, 28);
+            this.lblQueueDate.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblQueueDate.Name = "lblQueueDate";
+            this.lblQueueDate.Size = new System.Drawing.Size(34, 19);
+            this.lblQueueDate.TabIndex = 3;
+            this.lblQueueDate.Text = "Date";
             // 
             // lstbQueue
             // 
@@ -980,27 +980,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbThemeToggle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBurgerHome)).EndInit();
             this.tabMenu.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.pnlOrderInfo.ResumeLayout(false);
+            this.pnlOrderInfo.PerformLayout();
+            this.flpnlMenu.ResumeLayout(false);
+            this.pnlBurger.ResumeLayout(false);
+            this.pnlBurger.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbBurger)).EndInit();
+            this.pnlChicken.ResumeLayout(false);
+            this.pnlChicken.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbChicken)).EndInit();
+            this.pnlPizza.ResumeLayout(false);
+            this.pnlPizza.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPizza)).EndInit();
+            this.pnlFries.ResumeLayout(false);
+            this.pnlFries.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbFries)).EndInit();
+            this.pnlCoffee.ResumeLayout(false);
+            this.pnlCoffee.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbCoffee)).EndInit();
+            this.pnlCoke.ResumeLayout(false);
+            this.pnlCoke.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbCoke)).EndInit();
             this.tabQueue.ResumeLayout(false);
             this.tabQueue.PerformLayout();
             this.tabHistory.ResumeLayout(false);
@@ -1023,45 +1023,45 @@
         private MaterialSkin.Controls.MaterialButton btnQueue;
         private System.Windows.Forms.PictureBox ptbBurgerHome;
         private MaterialSkin.Controls.MaterialLabel lblDeveloper;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlBurger;
         private MaterialSkin.Controls.MaterialLabel lblBurgerPrice;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox ptbBurger;
         private MaterialSkin.Controls.MaterialCheckbox chkbBurger;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel flpnlMenu;
+        private System.Windows.Forms.Panel pnlChicken;
         private MaterialSkin.Controls.MaterialLabel lblChickenPrice;
         private MaterialSkin.Controls.MaterialCheckbox chkbChicken;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox ptbChicken;
+        private System.Windows.Forms.Panel pnlPizza;
         private MaterialSkin.Controls.MaterialLabel lblPizzaPrice;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox ptbPizza;
         private MaterialSkin.Controls.MaterialCheckbox chkbPizza;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel pnlFries;
         private MaterialSkin.Controls.MaterialLabel lblFriesPrice;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox ptbFries;
         private MaterialSkin.Controls.MaterialCheckbox chkbFries;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pnlCoffee;
         private MaterialSkin.Controls.MaterialLabel lblCoffee;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox ptbCoffee;
         private MaterialSkin.Controls.MaterialCheckbox chkbCoffee;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel pnlCoke;
         private MaterialSkin.Controls.MaterialLabel lblCokePrice;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox ptbCoke;
         private MaterialSkin.Controls.MaterialCheckbox chkbCoke;
         private MaterialSkin.Controls.MaterialTextBox tbCustomersName;
         private MaterialSkin.Controls.MaterialButton btnAdd;
         private MaterialSkin.Controls.MaterialButton btnRemove;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel pnlOrderInfo;
         private MaterialSkin.Controls.MaterialButton btnSendOrder;
         private MaterialSkin.Controls.MaterialLabel lblTotalPrice;
         private MaterialSkin.Controls.MaterialLabel lblTotalItem;
         private MaterialSkin.Controls.MaterialLabel lblCustomersName;
         private MaterialSkin.Controls.MaterialButton btnClear;
         private System.Windows.Forms.ListBox lstbOrders;
-        private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel lblQueueTotalPrice;
+        private MaterialSkin.Controls.MaterialLabel lblQueueTotalItem;
+        private MaterialSkin.Controls.MaterialLabel lblQueueName;
+        private MaterialSkin.Controls.MaterialLabel lblQueueDate;
         private System.Windows.Forms.ListBox lstbQueue;
         private MaterialSkin.Controls.MaterialButton btnCountAllOrders;
         private MaterialSkin.Controls.MaterialButton btnShowFirstOrder;
